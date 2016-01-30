@@ -36,8 +36,11 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
       {
           RectTransformUtility.ScreenPointToLocalPointInRectangle(panelRectTransform, data.position, data.pressEventCamera, out pointerOffset);
             dragging = true;
+
+            AudioManager.GetInstance().PlaySound("click");
+    
       }
-    }
+  }
 
   public void OnDrag (PointerEventData data) {
       if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
@@ -81,6 +84,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
               destination = where;
               moving = true;
           }
+          AudioManager.GetInstance().PlaySound("drop");
       }
   }
 
