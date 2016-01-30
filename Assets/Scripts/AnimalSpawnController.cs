@@ -27,7 +27,7 @@ public class AnimalSpawnController : MonoBehaviour {
         {
             string nextKill = sacman.GetNextAnimal();
             GameObject spawnedAnimal = null;
-            if (nextKill.Equals("cow"))
+            if (nextKill.Equals("Rabbit"))
                 spawnedAnimal = SpawnAnimal(Animal.COW);
 
             spawnedAnimal.GetComponent<AnimalMovementController>().sacrificeTargetLocation = WalkLoction;
