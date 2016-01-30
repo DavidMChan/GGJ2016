@@ -10,12 +10,15 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
   private RectTransform panelRectTransform;
   private RectTransform containerRectTransform;
 
-  public SnapPoint homeLocation;
+    public SnapPoint homeLocation;
   public float snapRadius = 30;
     public float snapSpeed = 10;
 
   private SnapPoint destination = null;
   private bool moving = false;
+
+    public bool dragging;
+    private SnapPoint currentLocation;
 
   void Awake () {
     Canvas canvas = GetComponentInParent <Canvas>();
@@ -24,12 +27,14 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
       panelRectTransform = transform as RectTransform;
       containerRectTransform = transform.parent as RectTransform;
     }
+        this.currentLocation = homeLocation;
   }
 
   public void OnPointerDown (PointerEventData data) {
 //    panelRectTransform.SetAsLastSibling ();
     RectTransformUtility.ScreenPointToLocalPointInRectangle (panelRectTransform, data.position, data.pressEventCamera, out pointerOffset);
-  }
+        dragging = true;
+    }
 
   public void OnDrag (PointerEventData data) {
     if (panelRectTransform == null)
@@ -43,6 +48,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
     )) {
       panelRectTransform.localPosition = localPointerPosition - pointerOffset;
     }
+
+   
   }
 
   public void OnEndDrag (PointerEventData data)
@@ -67,10 +74,19 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
             this.transform.position = Vector2.MoveTowards(this.transform.position, this.destination.gameObject.transform.position, snapSpeed * Time.deltaTime);
             if (Vector2.Distance(this.transform.position, this.destination.gameObject.transform.position) < .01)
             {
-                this.destination = null;
                 this.moving = false;
+                this.dragging = false;
+                this.destination.occupied = true;
+                this.currentLocation.occupied = false;
+                this.currentLocation = this.destination;
+                this.destination = null;
             }
         }
 }
+
+    public bool isBeingDragged()
+    {
+        return dragging;
+    }
 
 }

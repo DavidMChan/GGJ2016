@@ -18,7 +18,7 @@ public class SnappingPointRegistry : MonoBehaviour {
                 closest = point;
                 distance = Vector2.Distance(point.gameObject.transform.position, snapLocation.gameObject.transform.position);
             }
-            else if (Vector2.Distance(point.gameObject.transform.position, snapLocation.gameObject.transform.position) < distance)
+            else if (Vector2.Distance(point.gameObject.transform.position, snapLocation.gameObject.transform.position) < distance && !point.occupied)
             {
                 closest = point;
                 distance = Vector2.Distance(point.gameObject.transform.position, snapLocation.gameObject.transform.position);
