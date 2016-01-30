@@ -60,6 +60,12 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
    
   }
 
+  public void GoHome()
+  {
+      this.destination = homeLocation;
+      moving = true;
+  }
+
   public void OnEndDrag (PointerEventData data)
   {
       if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)

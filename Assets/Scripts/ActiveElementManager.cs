@@ -28,6 +28,15 @@ public class ActiveElementManager : MonoBehaviour {
         }
     }
 
+    public void Reset()
+    {
+        foreach (ActiveElementDetector aed in locations)
+        {
+            if (aed.current != null)
+                aed.current.GetComponent<DragAndDrop>().GoHome();
+        }
+    }
+
 	// Update is called once per frame
 	void Update () {
         ActiveElement[] currentActives = GameObject.FindObjectsOfType<ActiveElement>();
