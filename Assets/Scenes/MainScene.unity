@@ -228,6 +228,99 @@ MonoBehaviour:
       - Dagger
       - VodooDoll
       ReturnItem: RabbitFoot
+  - Animal: Chick
+    Kills:
+    - Items:
+      - Dagger
+      ReturnItem: 
+    - Items:
+      - Candles
+      - Statue
+      ReturnItem: 
+    - Items:
+      - Toothbrush
+      ReturnItem: 
+  - Animal: Deer
+    Kills:
+    - Items:
+      - Axe
+      ReturnItem: 
+    - Items:
+      - Candles
+      - Statue
+      - Dagger
+      ReturnItem: 
+    - Items:
+      - Rope
+      - Bowl
+      - Candles
+      ReturnItem: DeerAshes
+    - Items:
+      - Relic
+      - Rope
+      ReturnItem: 
+  - Animal: Panda
+    Kills:
+    - Items:
+      - Vial
+      - Statue
+      ReturnItem: 
+    - Items:
+      - Vile
+      - Relic
+      ReturnItem: 
+    - Items:
+      - Axe
+      - Candles
+      - Relic
+      ReturnItem: 
+    - Items:
+      - Dagger
+      - Relic
+      - Rope
+      - DeerAshes
+      ReturnItem: 
+    - Items:
+      - RabbitFoot
+      - DeerAshes
+      ReturnItem: 
+    - Items:
+      - Axe
+      - RabbitFoot
+      ReturnItem: 
+    - Items:
+      - Vial
+      - Relic
+      - Axe
+      ReturnItem: PandaPelt
+  - Animal: Orangutang
+    Kills:
+    - Items:
+      - Vial
+      - Toothbrush
+      - RabbitFoot
+      ReturnItem: 
+    - Items:
+      - Axe
+      - DeerAshes
+      - Statue
+      ReturnItem: 
+    - Items:
+      - RabbitFoot
+      - PandaPelt
+      - DeerAshes
+      ReturnItem: 
+    - Items:
+      - Statue
+      - DeerAshes
+      ReturnItem: 
+  - Animal: Demon
+    Kills:
+    - Items:
+      - PandaPelt
+      - RabbitFoot
+      - Mirror
+      ReturnItem: 
 --- !u!1 &307386525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,7 +4453,12 @@ MonoBehaviour:
   SpawnLocation: {fileID: 1499923523}
   WalkLoction: {fileID: 1842168926}
   sacman: {fileID: 300871876}
-  COW: {fileID: 137870, guid: 47cbbb9e93750ec448f15ef5ed8ecdd9, type: 2}
+  rabbit: {fileID: 137870, guid: 47cbbb9e93750ec448f15ef5ed8ecdd9, type: 2}
+  chick: {fileID: 137870, guid: 49c3e5ae3ca3342d5883a4b9a5f86c19, type: 2}
+  deer: {fileID: 137870, guid: 1815f40af24aa4c5ea970be87122b4df, type: 2}
+  panda: {fileID: 137870, guid: 99788b1cb46604f61a894da4d3ca978d, type: 2}
+  orangutang: {fileID: 137870, guid: eafc2266dab594366a36b24f0180c52a, type: 2}
+  demon: {fileID: 137870, guid: b57c287f3cf3d428dbe3835257d472d7, type: 2}
 --- !u!1 &2039872635
 GameObject:
   m_ObjectHideFlags: 0
