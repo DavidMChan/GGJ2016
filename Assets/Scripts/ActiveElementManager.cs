@@ -1,12 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ActiveElementManager : MonoBehaviour {
 
     public ActiveElementDetector[] locations;
     public float detectRadius = 0.05f;
 
+    // Get the current active elements
+    public List<ActiveElement> GetActiveElements()
+    {
+        List<ActiveElement> ActiveElements = new List<ActiveElement>();
+        foreach (ActiveElementDetector aed in locations){
+            if (aed.current != null)
+            {
+                ActiveElements.Add(aed.current);
+            }
+        }
+        return ActiveElements;
+    }
 
+    public void Clean()
+    {
+        foreach (ActiveElementDetector aed in locations)
+        {
+            aed.current = null;
+        }
+    }
 
 	// Update is called once per frame
 	void Update () {
