@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: c7e843fd9bd90a8459859a3ef7596da7
+timeCreated: 1454187807
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunnyidle_0
+    21300002: bunnyidle_1
+    21300004: bunnyidle_2
+    21300006: bunnyidle_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunnyidle_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 386
+        width: 229
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95.5, y: 108.5}
+        - {x: -114.5, y: 108.5}
+        - {x: -114.5, y: 63.5}
+        - {x: -36.5, y: -108.5}
+        - {x: 87.5, y: -108.5}
+        - {x: 114.5, y: -85.5}
+        - {x: 114.5, y: -34.5}
+        - {x: 66.5, y: 27.5}
+    - name: bunnyidle_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 384
+        width: 257
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 112}
+        - {x: -128.5, y: 66}
+        - {x: -128.5, y: 40}
+        - {x: -121.5, y: 27}
+        - {x: -54.5, y: -68}
+        - {x: -7.5, y: -112}
+        - {x: 103.5, y: -112}
+        - {x: 128.5, y: -102}
+        - {x: 128.5, y: 72}
+        - {x: 64.5, y: 112}
+    - name: bunnyidle_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 379
+        width: 257
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 111}
+        - {x: 60.5, y: 112}
+        - {x: 12.5, y: 112}
+        - {x: 8.5, y: 103}
+        - {x: -128.5, y: 69}
+        - {x: -128.5, y: 25}
+        - {x: -84.5, y: -83}
+        - {x: -25.5, y: -112}
+        - {x: 128.5, y: -112}
+        - {x: 128.5, y: -20}
+        - {x: 103.5, y: 35}
+    - name: bunnyidle_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 105
+        width: 229
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114.5, y: -41}
+        - {x: 89.5, y: 105}
+        - {x: 74.5, y: 108}
+        - {x: -114.5, y: 108}
+        - {x: -114.5, y: 85}
+        - {x: -108.5, y: 73}
+        - {x: -70.5, y: -20}
+        - {x: -18.5, y: -106}
+        - {x: -6.5, y: -108}
+        - {x: 69.5, y: -108}
+        - {x: 110.5, y: -78}
+        - {x: 114.5, y: -74}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
