@@ -1090,7 +1090,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 1429113832}
   m_Layer: 5
-  m_Name: GameLogic
+  m_Name: Indicators
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
