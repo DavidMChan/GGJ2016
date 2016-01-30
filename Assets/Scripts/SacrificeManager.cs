@@ -33,6 +33,11 @@ public class SacrificeManager : MonoBehaviour {
         GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SACRIFICING);
     }
 
+    public string GetNextAnimal()
+    {
+        return sacrifices[sacrificeNumber].Animal;
+    }
+
     public void Start()
     {
         sacrificeNumber = 0;
@@ -124,6 +129,9 @@ public class SacrificeManager : MonoBehaviour {
                 Destroy(ae.gameObject);
             }
             AEM.Clean();
+
+            //Increment sacrifice number
+            sacrificeNumber += 1;
 
             GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.CLEANING_UP);
         }

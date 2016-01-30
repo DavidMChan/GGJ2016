@@ -18,7 +18,7 @@ public class GameStateManager : MonoBehaviour {
         ANIMAL_PLAYING_KILL_ANIMATION, // The animal is playing a kill animation (player loss)
         SCORING_KILL, // Scoring the kill (when the player wins)
         ADDING_ITEMS, // Adding items to the game (when the player wins)
-        CLEANING_UP //Cleaning up between sacrifies - prepares the next animal
+        CLEANING_UP //Cleaning up between sacrifies - checks the win conditions
     }
 
     public GameState currentState;
@@ -41,7 +41,7 @@ public class GameStateManager : MonoBehaviour {
     public void Awake()
     {
         GameStateManager.instance = this;
-        this.currentState = GameState.ANIMAL_ENTERING;
+        this.currentState = GameState.ANIMAL_SPAWNING;
     }
 
     public void Update()
