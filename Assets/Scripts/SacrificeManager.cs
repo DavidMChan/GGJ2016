@@ -23,6 +23,10 @@ public class SacrificeManager : MonoBehaviour {
 
   private int sacrificeNumber;
 
+  public GameObject RabitFoot;
+  public GameObject PandaPelt;
+  public GameObject DeerAshes;
+
   //For the sacrifice button
   public void SacrificeAnAnimal() {
     GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SACRIFICING);
@@ -34,6 +38,9 @@ public class SacrificeManager : MonoBehaviour {
 
   public void Start() {
     sacrificeNumber = 0;
+    RabitFoot.SetActive(false);
+    PandaPelt.SetActive(false);
+    DeerAshes.SetActive(false);
   }
 
   public void Update() {
@@ -87,6 +94,17 @@ public class SacrificeManager : MonoBehaviour {
 
       if (itemDrop) {
         Debug.Log("Perfect Item drop kill!");
+        foreach (Kill k in matchedKills)
+        {
+            if (k.ReturnItem != "" && k.ReturnItem == "RabbitFoot")
+                RabitFoot.SetActive(true);
+
+            if (k.ReturnItem != "" && k.ReturnItem == "DeerAshes")
+                DeerAshes.SetActive(true);
+
+            if (k.ReturnItem != "" && k.ReturnItem == "PandaPelt")
+                PandaPelt.SetActive(true);
+        }
         // LOGIC FOR ITEM-DROP PERFECT KILL
       } else if (failed) {
         Debug.Log("Failed kill!");
