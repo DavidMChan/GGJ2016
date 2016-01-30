@@ -27,61 +27,74 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
       panelRectTransform = transform as RectTransform;
       containerRectTransform = transform.parent as RectTransform;
     }
-        this.currentLocation = homeLocation;
+    this.currentLocation = homeLocation;
   }
 
   public void OnPointerDown (PointerEventData data) {
 //    panelRectTransform.SetAsLastSibling ();
-    RectTransformUtility.ScreenPointToLocalPointInRectangle (panelRectTransform, data.position, data.pressEventCamera, out pointerOffset);
-        dragging = true;
+      if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
+      {
+          RectTransformUtility.ScreenPointToLocalPointInRectangle(panelRectTransform, data.position, data.pressEventCamera, out pointerOffset);
+            dragging = true;
+      }
     }
 
   public void OnDrag (PointerEventData data) {
-    if (panelRectTransform == null)
-      return;
+      if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
+      {
 
-    Vector2 pointerPostion = data.position;
+          if (panelRectTransform == null)
+              return;
 
-    Vector2 localPointerPosition;
-    if (RectTransformUtility.ScreenPointToLocalPointInRectangle (
-      containerRectTransform, pointerPostion, data.pressEventCamera, out localPointerPosition
-    )) {
-      panelRectTransform.localPosition = localPointerPosition - pointerOffset;
-    }
+          Vector2 pointerPostion = data.position;
+
+          Vector2 localPointerPosition;
+          if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            containerRectTransform, pointerPostion, data.pressEventCamera, out localPointerPosition
+          ))
+          {
+              panelRectTransform.localPosition = localPointerPosition - pointerOffset;
+          }
+      }
 
    
   }
 
   public void OnEndDrag (PointerEventData data)
   {
-        SnapPoint where = GameObject.FindObjectOfType<SnappingPointRegistry>().returnClosestSnapPoint(this.gameObject.transform);
-        if (where == null || Vector2.Distance(this.gameObject.transform.position, where.gameObject.transform.position) > snapRadius)
-        {
-            destination = homeLocation;
-            moving = true;
-        }
-        else
-        {
-            destination = where;
-            moving = true;
-        }
-
+      if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
+      {
+          SnapPoint where = GameObject.FindObjectOfType<SnappingPointRegistry>().returnClosestSnapPoint(this.gameObject.transform);
+          if (where == null || Vector2.Distance(this.gameObject.transform.position, where.gameObject.transform.position) > snapRadius)
+          {
+              destination = homeLocation;
+              moving = true;
+          }
+          else
+          {
+              destination = where;
+              moving = true;
+          }
+      }
   }
 
   public void Update() {
-        if (this.moving)
-        {
-            this.transform.position = Vector2.MoveTowards(this.transform.position, this.destination.gameObject.transform.position, snapSpeed * Time.deltaTime);
-            if (Vector2.Distance(this.transform.position, this.destination.gameObject.transform.position) < .01)
-            {
-                this.moving = false;
-                this.dragging = false;
-                this.destination.occupied = true;
-                this.currentLocation.occupied = false;
-                this.currentLocation = this.destination;
-                this.destination = null;
-            }
-        }
+      if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
+      {
+          if (this.moving)
+          {
+              this.transform.position = Vector2.MoveTowards(this.transform.position, this.destination.gameObject.transform.position, snapSpeed * Time.deltaTime);
+              if (Vector2.Distance(this.transform.position, this.destination.gameObject.transform.position) < .01)
+              {
+                  this.moving = false;
+                  this.dragging = false;
+                  this.destination.occupied = true;
+                  this.currentLocation.occupied = false;
+                  this.currentLocation = this.destination;
+                  this.destination = null;
+              }
+          }
+      }
 }
 
     public bool isBeingDragged()

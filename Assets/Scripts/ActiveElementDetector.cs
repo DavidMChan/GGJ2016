@@ -15,7 +15,6 @@ public class ActiveElementDetector : MonoBehaviour {
 
     public void Update()
     {
-        Debug.Log(indicator.GetComponent<Text>().text);
         if (current != null)
         {
             indicator.SetActive(true);
