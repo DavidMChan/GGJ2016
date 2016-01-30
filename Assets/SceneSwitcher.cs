@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour {
 
     public void SwitchScene(string Scene)
     {
-        Application.LoadLevel(Scene);
+        SceneManager.LoadScene(Scene);
     }
 }
