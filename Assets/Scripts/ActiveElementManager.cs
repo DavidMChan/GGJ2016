@@ -25,6 +25,7 @@ public class ActiveElementManager : MonoBehaviour {
         foreach (ActiveElementDetector aed in locations)
         {
             aed.current = null;
+      aed.gameObject.GetComponent<SnapPoint>().occupied = false;
         }
     }
 
