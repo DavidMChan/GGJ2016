@@ -31,5 +31,11 @@ public class AudioManager : MonoBehaviour {
         source.clip = clips[i];
         source.Play();
     }
+
+    public void PlaySound(AudioClip a)
+    {
+        source.clip = a;
+        source.Play();
+    }
 	
 }
