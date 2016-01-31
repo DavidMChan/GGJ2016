@@ -28,6 +28,7 @@ public class FX : MonoBehaviour {
         Debug.Log(ae.ID);
         if (ae.fx != null) {
           gameObject = (GameObject) Instantiate(ae.fx, transform.position, Quaternion.identity);
+          gameObject.SetActive(false);
           gameObject.transform.parent = transform;
 //          gameObject.transform.position = new Vector3(0, 0, 0);
           particleSystem = gameObject.GetComponentInChildren<ParticleSystem>();
