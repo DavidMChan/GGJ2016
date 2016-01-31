@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class FX : MonoBehaviour {
   public ActiveElementManager AEM;
 //  public Transform spawnPoint;
 
-  List<ParticleSystem> fxQueue;
+  List<KeyValuePair<ParticleSystem,int>> fxQueue;
   bool showingFX = false;
   ParticleSystem currentFX;
 
@@ -19,7 +20,7 @@ public class FX : MonoBehaviour {
   void Update() {
     if (!showingFX && GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.PRE_SACRIFICING_FX) {	    
       List<ActiveElement> aes = AEM.GetActiveElements();
-      fxQueue = new List<ParticleSystem>();
+      fxQueue = new List<KeyValuePair<ParticleSystem,int>>();
 
       ParticleSystem particleSystem;
       GameObject gameObject;
@@ -30,14 +31,17 @@ public class FX : MonoBehaviour {
           gameObject.transform.parent = transform;
 //          gameObject.transform.position = new Vector3(0, 0, 0);
           particleSystem = gameObject.GetComponentInChildren<ParticleSystem>();
-          fxQueue.Add(particleSystem);
+          fxQueue.Add(new KeyValuePair<ParticleSystem,int>(particleSystem, ae.sound));
         }
       }
       if (fxQueue.Count > 0) {
         showingFX = true;
-        currentFX = fxQueue [0];
+        currentFX = fxQueue[0].Key;
         currentFX.gameObject.SetActive(true);
         currentFX.Play();
+        AudioManager.GetInstance().PlaySound(fxQueue[0].Value);
+        Debug.Log("Playing sound" + fxQueue[0].Value);
+
         fxQueue.RemoveAt(0);
       }
       else {
@@ -52,7 +56,7 @@ public class FX : MonoBehaviour {
         GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SACRIFICING);
       } else {
         Destroy(currentFX.gameObject);
-        currentFX = fxQueue [0];
+        currentFX = fxQueue[0].Key;
         currentFX.gameObject.SetActive(true);
         currentFX.Play();
         fxQueue.RemoveAt(0);

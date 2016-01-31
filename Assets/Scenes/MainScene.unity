@@ -845,6 +845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Rope
   fx: {fileID: 0}
+  sound: 11
 --- !u!114 &374870896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,6 +1518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Relic
   fx: {fileID: 0}
+  sound: 3
 --- !u!114 &561773886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,6 +1617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Statue
   fx: {fileID: 141390, guid: a91aa105772bea34caebf6762f787964, type: 2}
+  sound: 13
 --- !u!114 &569624359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2141,6 +2144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: VodooDoll
   fx: {fileID: 0}
+  sound: 12
 --- !u!114 &883788870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2239,6 +2243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Candles
   fx: {fileID: 100002, guid: 27a53a04ff38bfc4b8dd0a089e3b6142, type: 2}
+  sound: 7
 --- !u!114 &931818222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2337,6 +2342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Bowl
   fx: {fileID: 0}
+  sound: 6
 --- !u!114 &954834237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2612,6 +2618,23 @@ MonoBehaviour:
   - {fileID: 8300000, guid: eec0e587bc1f47549b80ba931f02ec30, type: 3}
   - {fileID: 8300000, guid: cf395a9ad8bb1fb459bda2a70578caaa, type: 3}
   - {fileID: 8300000, guid: 53d8af595f3089b46a312072235e56a0, type: 3}
+  - {fileID: 8300000, guid: b6fa572ce254ba3438f08e9ed3f95d3f, type: 3}
+  - {fileID: 8300000, guid: 5319a692b44931a4788441277356fa63, type: 3}
+  - {fileID: 8300000, guid: 36d2678223b9d3c499ca0612bd578bdf, type: 3}
+  - {fileID: 8300000, guid: 2bb0232a89426ee4f989b5da2e606241, type: 3}
+  - {fileID: 8300000, guid: c46d799458f48b24ebaf2c49a8c5884e, type: 3}
+  - {fileID: 8300000, guid: 0d13d017f986c87468d0ec9608eb1c6b, type: 3}
+  - {fileID: 8300000, guid: ff4f9f94a47e50c4aa07445515acef43, type: 3}
+  - {fileID: 8300000, guid: 29486de4d85e91f48862a601980949e5, type: 3}
+  - {fileID: 8300000, guid: fd04f59061e4b5f4b9ad90e3438a61bd, type: 3}
+  - {fileID: 8300000, guid: 54b6de7e0a2c1d54fae1d24e96827a88, type: 3}
+  - {fileID: 8300000, guid: df464c4eaf61eea459b2fda8d8eec77d, type: 3}
+  - {fileID: 8300000, guid: a03d73f78ba43a945b359c051fbfde37, type: 3}
+  - {fileID: 8300000, guid: d590a6a21a36750448e5ff03d3bfc1d6, type: 3}
+  - {fileID: 8300000, guid: 53d8af595f3089b46a312072235e56a0, type: 3}
+  - {fileID: 8300000, guid: 53d8af595f3089b46a312072235e56a0, type: 3}
+  - {fileID: 8300000, guid: 53d8af595f3089b46a312072235e56a0, type: 3}
+  - {fileID: 8300000, guid: 53d8af595f3089b46a312072235e56a0, type: 3}
 --- !u!82 &1049164878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2841,6 +2864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Axe
   fx: {fileID: 0}
+  sound: 5
 --- !u!114 &1127272886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,6 +3084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Vial
   fx: {fileID: 0}
+  sound: 9
 --- !u!114 &1175691977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3398,6 +3423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: PandaPelt
   fx: {fileID: 0}
+  sound: 0
 --- !u!114 &1274535175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3496,6 +3522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Mirror
   fx: {fileID: 100000, guid: 3821b05e826a37e489b13e0646d10e62, type: 2}
+  sound: 10
 --- !u!114 &1374101519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4238,6 +4265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Toothbrush
   fx: {fileID: 100000, guid: d827829084319e5478009c518da1b681, type: 2}
+  sound: 14
 --- !u!114 &1594910869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4815,6 +4843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: DeerAshes
   fx: {fileID: 0}
+  sound: 4
 --- !u!114 &1838629248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5173,6 +5202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: RabbitFoot
   fx: {fileID: 0}
+  sound: 15
 --- !u!114 &2016840013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5528,6 +5558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Dagger
   fx: {fileID: 0}
+  sound: 8
 --- !u!1 &2119674859
 GameObject:
   m_ObjectHideFlags: 0
