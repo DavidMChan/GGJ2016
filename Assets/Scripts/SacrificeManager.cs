@@ -104,6 +104,7 @@ public class SacrificeManager : MonoBehaviour {
 
             if (k.ReturnItem != "" && k.ReturnItem == "PandaPelt")
                 PandaPelt.SetActive(true);
+            FeedbackManager.GetInstance().ShowFeedbackHappy();
         }
         // LOGIC FOR ITEM-DROP PERFECT KILL
       } else if (failed) {
@@ -112,7 +113,7 @@ public class SacrificeManager : MonoBehaviour {
         GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.LOSE);
         return;
       } else if (cleanKill) {
-
+          FeedbackManager.GetInstance().ShowFeedbackHappy();
         Debug.Log("Clean kill!");
         // LOGIC FOR CLEAN KILL
 
@@ -120,6 +121,8 @@ public class SacrificeManager : MonoBehaviour {
 
         Debug.Log("Imperfect kill!");
         // LOGIC FOR IMPERFECT KILL
+
+        FeedbackManager.GetInstance().ShowFeedbackSad();
       }
 
       // Clean up the objects (remove them from the game)
