@@ -93,9 +93,10 @@ public class AnimalSpawnController : MonoBehaviour {
     {
         if (!dying)
         {
+            Debug.Log("Playing Laugh Anim");
             currentAnimal.GetComponent<Animator>().SetBool("Laughing", true);
             dying = true;
-            tics = Time.frameCount + 60;
+            tics = Time.frameCount + 120;
         }
         else
         {
