@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 6272bd60c41d3594081fe362a84736a2
+timeCreated: 1454207649
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_chick_walking_0
+    21300002: spritesheet_chick_walking_1
+    21300004: spritesheet_chick_walking_2
+    21300006: spritesheet_chick_walking_3
+    21300008: spritesheet_chick_walking_4
+    21300010: spritesheet_chick_walking_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_chick_walking_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 317
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.14259, y: 163.92036}
+        - {x: -100.14259, y: 144.92036}
+        - {x: -100.14259, y: -138.07964}
+        - {x: -92.14259, y: -162.07964}
+        - {x: -31.142593, y: -154.07964}
+        - {x: -27.142593, y: -153.07964}
+        - {x: 14.857407, y: -135.07964}
+        - {x: 27.857407, y: -127.079636}
+        - {x: 27.857407, y: -118.079636}
+        - {x: 37.857407, y: -122.079636}
+        - {x: 18.857407, y: -134.07964}
+        - {x: 12.857407, y: -141.07964}
+        - {x: 12.857407, y: -144.07964}
+        - {x: 13.857407, y: -147.07964}
+        - {x: 17.857407, y: -150.07964}
+        - {x: 24.857407, y: -150.07964}
+        - {x: 33.857407, y: -163.07964}
+        - {x: 88.85741, y: -163.07964}
+        - {x: 100.85741, y: -129.07964}
+        - {x: 100.85741, y: 79.920364}
+        - {x: -0.14259338, y: 163.92036}
+    - name: spritesheet_chick_walking_1
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 32
+        width: 316
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.35739, y: -5.2925873}
+        - {x: 100.35739, y: 30.707413}
+        - {x: 25.357391, y: 159.70741}
+        - {x: -80.64261, y: 159.70741}
+        - {x: -99.64261, y: 130.70741}
+        - {x: -99.64261, y: -141.29259}
+        - {x: 1.3573914, y: -147.29259}
+        - {x: 5.3573914, y: -129.29259}
+        - {x: 37.35739, y: -152.29259}
+        - {x: 54.35739, y: -159.29259}
+        - {x: 72.35739, y: -159.29259}
+        - {x: 90.35739, y: -133.29259}
+        - {x: 96.35739, y: -83.29259}
+        - {x: 77.35739, y: -73.29259}
+    - name: spritesheet_chick_walking_2
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 61
+        width: 317
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.12036, y: -74.47963}
+        - {x: 82.12036, y: -78.47963}
+        - {x: 79.12036, y: -82.47963}
+        - {x: 99.12036, y: -12.4796295}
+        - {x: 101.12036, y: -4.4796295}
+        - {x: 101.12036, y: 15.5203705}
+        - {x: 8.120361, y: 151.52037}
+        - {x: -46.87964, y: 151.52037}
+        - {x: -83.87964, y: 137.52037}
+        - {x: -99.87964, y: 104.52037}
+        - {x: -99.87964, y: 1.5203705}
+        - {x: -47.87964, y: -150.47963}
+        - {x: -14.879639, y: -150.47963}
+        - {x: 39.12036, y: -97.47963}
+        - {x: 61.12036, y: -150.47963}
+        - {x: 94.12036, y: -150.47963}
+        - {x: 101.12036, y: -146.47963}
+        - {x: 101.12036, y: -117.47963}
+        - {x: 94.12036, y: -79.47963}
+    - name: spritesheet_chick_walking_3
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 7
+        width: 317
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.14258, y: 163.92036}
+        - {x: -100.14258, y: 125.920364}
+        - {x: -100.14258, y: -114.079636}
+        - {x: -88.14258, y: -163.07964}
+        - {x: -72.14258, y: -163.07964}
+        - {x: -26.142578, y: -153.07964}
+        - {x: 15.857422, y: -135.07964}
+        - {x: 28.857422, y: -127.079636}
+        - {x: 28.857422, y: -118.079636}
+        - {x: 38.85742, y: -122.079636}
+        - {x: 19.857422, y: -134.07964}
+        - {x: 13.857422, y: -141.07964}
+        - {x: 13.857422, y: -144.07964}
+        - {x: 14.857422, y: -147.07964}
+        - {x: 18.857422, y: -150.07964}
+        - {x: 25.857422, y: -150.07964}
+        - {x: 34.85742, y: -163.07964}
+        - {x: 49.85742, y: -163.07964}
+        - {x: 51.85742, y: -162.07964}
+        - {x: 100.85742, y: -125.079636}
+        - {x: 100.85742, y: 30.920364}
+        - {x: 10.857422, y: 163.92036}
+    - name: spritesheet_chick_walking_4
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 42
+        width: 318
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.59436, y: 76.02222}
+        - {x: 6.5943604, y: 147.02222}
+        - {x: 0.59436035, y: 156.02222}
+        - {x: -51.40564, y: 156.02222}
+        - {x: -70.40564, y: 151.02222}
+        - {x: -100.40564, y: 83.02222}
+        - {x: -100.40564, y: 34.022217}
+        - {x: -78.40564, y: -47.977783}
+        - {x: -38.40564, y: -81.97778}
+        - {x: -18.40564, y: -93.97778}
+        - {x: -16.40564, y: -154.97778}
+        - {x: 68.59436, y: -154.97778}
+        - {x: 86.59436, y: -50.977783}
+        - {x: 100.59436, y: -10.977783}
+        - {x: 100.59436, y: 25.022217}
+    - name: spritesheet_chick_walking_5
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 78
+        width: 318
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.98889, y: -82.744446}
+        - {x: 50.98889, y: -87.744446}
+        - {x: 52.98889, y: -83.744446}
+        - {x: 70.98889, y: -65.744446}
+        - {x: 93.98889, y: -57.744446}
+        - {x: 101.98889, y: -27.744446}
+        - {x: 101.98889, y: 32.255554}
+        - {x: 27.988892, y: 145.25555}
+        - {x: -69.01111, y: 145.25555}
+        - {x: -99.01111, y: 79.255554}
+        - {x: -99.01111, y: 11.255554}
+        - {x: -60.01111, y: -144.74445}
+        - {x: 92.98889, y: -144.74445}
+        - {x: 78.98889, y: -85.744446}
+        - {x: 72.98889, y: -75.744446}
+        - {x: 61.98889, y: -75.744446}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

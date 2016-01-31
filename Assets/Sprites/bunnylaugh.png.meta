@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: 1be9e348224061f4b90be650a2a17e66
-timeCreated: 1454195622
+timeCreated: 1454208895
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: bunnylaugh_0
+    21300002: bunnylaugh_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +40,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +51,66 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: bunnylaugh_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 371
+        width: 229
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 108.5}
+        - {x: 42.5, y: 108.5}
+        - {x: 26.5, y: 84.5}
+        - {x: -91.5, y: 108.5}
+        - {x: -111.5, y: 108.5}
+        - {x: -111.5, y: -43.5}
+        - {x: -22.5, y: -108.5}
+        - {x: 104.5, y: -108.5}
+        - {x: 114.5, y: -93.5}
+        - {x: 114.5, y: -40.5}
+        - {x: 87.5, y: 101.5}
+    - name: bunnylaugh_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 310
+        width: 369
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.5, y: 68.5}
+        - {x: -34.5, y: 109.5}
+        - {x: -35.5, y: 109.5}
+        - {x: -45.5, y: 106.5}
+        - {x: -45.5, y: 96.5}
+        - {x: -39.5, y: 82.5}
+        - {x: -20.5, y: 62.5}
+        - {x: -4.5, y: -2.5}
+        - {x: 28.5, y: -109.5}
+        - {x: 156.5, y: -109.5}
+        - {x: 184.5, y: -86.5}
+        - {x: 184.5, y: 35.5}
+        - {x: 147.5, y: 109.5}
+        - {x: 105.5, y: 109.5}
+        - {x: 104.5, y: 107.5}
+        - {x: 94.5, y: 86.5}
+      - - {x: -149.5, y: 73.5}
+        - {x: -183.5, y: 63.5}
+        - {x: -184.5, y: 58.5}
+        - {x: -184.5, y: 14.5}
+        - {x: -178.5, y: 6.5}
+        - {x: -52.5, y: -31.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -16.5, y: -5.5}
+        - {x: -16.5, y: 54.5}
+        - {x: -54.5, y: 73.5}
     outline: []
   spritePackingTag: 
   userData: 
