@@ -43,6 +43,8 @@ public class SacrificeManager : MonoBehaviour {
   //For the sacrifice button
   public void SacrificeAnAnimal() {
 //    GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SACRIFICING);
+
+      AudioManager.GetInstance().SwitchToDemonMusic();
     GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.PRE_SACRIFICING_FX);
     //GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetTrigger("CastSpell");
   }

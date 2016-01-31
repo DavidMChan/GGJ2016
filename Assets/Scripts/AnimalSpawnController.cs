@@ -51,7 +51,6 @@ public class AnimalSpawnController : MonoBehaviour {
   public void Update() {
     if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.ANIMAL_SPAWNING) {
       string nextKill = sacman.GetNextAnimal();
-
       GameObject spawnedAnimal = null;
       if (nextKill.Equals("Rabbit"))
         spawnedAnimal = SpawnAnimal(Animal.Rabbit);
@@ -69,6 +68,7 @@ public class AnimalSpawnController : MonoBehaviour {
       spawnedAnimal.GetComponent<AnimalMovementController>().sacrificeTargetLocation = WalkLoction;
       AudioManager.GetInstance().PlaySound(spawnedAnimal.GetComponent<AnimalMovementController>().EnterSound);
       GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_ENTERING);
+      AudioManager.GetInstance().SwitchToHappyMusic();
     }
 
     if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.ANIMAL_PLAYING_DEATH_ANIMATION)

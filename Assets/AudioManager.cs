@@ -20,6 +20,11 @@ public class AudioManager : MonoBehaviour {
 
     public AudioClip[] clips;
 
+    public AudioSource musicSource;
+    public AudioClip happyMusic;
+    public AudioClip demonMusic;
+    public bool demon = false;
+
     public void PlaySound(string name)
     {
         if (name == "click")
@@ -41,6 +46,26 @@ public class AudioManager : MonoBehaviour {
         sources[currentSource].Play();
 
         currentSource = (currentSource + 1) % sources.Length;
+    }
+
+    public void SwitchToDemonMusic()
+    {
+        if (!demon)
+        {
+            musicSource.clip = demonMusic;
+            musicSource.Play();
+            demon = true;
+        }
+    }
+
+    public void SwitchToHappyMusic()
+    {
+        if (demon)
+        {
+            musicSource.clip = happyMusic;
+            musicSource.Play();
+            demon = false;
+        }
     }
 	
 }
