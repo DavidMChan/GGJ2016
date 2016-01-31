@@ -60,6 +60,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sacrificeTargetLocation: {fileID: 0}
   walkSpeed: 2
+  EnterSound: 25
+  DeathSound: 27
+  LaughingSound: 26
   Laughing: 0
 --- !u!212 &21269158
 SpriteRenderer:
@@ -105,6 +108,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalScale.y
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: EnterSound
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DeathSound
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: LaughingSound
+      value: 26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

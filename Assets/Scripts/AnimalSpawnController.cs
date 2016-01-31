@@ -76,6 +76,7 @@ public class AnimalSpawnController : MonoBehaviour {
         if (!dying)
         {
             currentAnimal.GetComponent<Animator>().SetTrigger("Die");
+			AudioManager.GetInstance ().PlaySound (currentAnimal.GetComponent<AnimalMovementController> ().DeathSound);
             dying = true;
             tics = Time.frameCount + 60;
         }
