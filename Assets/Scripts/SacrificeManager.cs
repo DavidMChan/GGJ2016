@@ -104,8 +104,11 @@ public class SacrificeManager : MonoBehaviour {
         foreach (Kill k in matchedKills)
         {
             if (k.ReturnItem != "" && k.ReturnItem == "RabbitFoot")
-                RabitFoot.SetActive(true);
+            {
 
+                RabitFoot.SetActive(true);
+                RabitFoot.GetComponent<DragAndDrop>().GiveElement();
+            }
             if (k.ReturnItem != "" && k.ReturnItem == "DeerAshes")
                 DeerAshes.SetActive(true);
 

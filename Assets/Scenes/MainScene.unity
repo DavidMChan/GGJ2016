@@ -836,6 +836,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &374870897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,6 +1508,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &561773887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1604,6 +1606,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &569624360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,6 +2132,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &883788871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,6 +2230,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &931818223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2323,6 +2328,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &954834238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2826,6 +2832,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &1127272887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,6 +3051,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &1175691978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3381,6 +3389,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &1274535176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3478,6 +3487,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 1842168926}
 --- !u!114 &1374101520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4199,6 +4209,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &1594910870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,6 +4786,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 1842168926}
 --- !u!114 &1838629249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5132,6 +5144,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 1842168926}
 --- !u!114 &2016840014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5457,6 +5470,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
+  Spawn: {fileID: 0}
 --- !u!114 &2118831412
 MonoBehaviour:
   m_ObjectHideFlags: 0

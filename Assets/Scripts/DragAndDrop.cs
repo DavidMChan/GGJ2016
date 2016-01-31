@@ -20,6 +20,10 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
     public bool dragging;
     private SnapPoint currentLocation;
 
+    public Transform Spawn;
+
+    private int waitTick;
+
   void Awake () {
     Canvas canvas = GetComponentInParent <Canvas>();
     if (canvas != null) {
@@ -88,13 +92,24 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
       }
   }
 
+  public void GiveElement()
+  {
+      Debug.Log("Giving Element");
+      this.transform.position = Spawn.position;
+      this.destination = homeLocation;
+      this.transform.localScale = new Vector2(5, 5);
+      this.moving = true;
+      this.waitTick = Time.frameCount + 30;
+  }
+
   public void Update() {
-      if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
+      if (true || GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SETTING_UP_SACRIFICE)
       {
-          if (this.moving)
+          if (this.moving && Time.frameCount > waitTick)
           {
               this.transform.position = Vector2.MoveTowards(this.transform.position, this.destination.gameObject.transform.position, snapSpeed * Time.deltaTime);
-              if (Vector2.Distance(this.transform.position, this.destination.gameObject.transform.position) < .01)
+              this.transform.localScale = Vector2.MoveTowards(this.transform.localScale, new Vector2(1,1), snapSpeed * Time.deltaTime);
+              if (Vector2.Distance(this.transform.position, this.destination.gameObject.transform.position) < .01 && Vector2.Distance(this.transform.localScale, new Vector2(1,1)) < .01)
               {
                   this.moving = false;
                   this.dragging = false;
@@ -102,6 +117,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
                   this.currentLocation.occupied = false;
                   this.currentLocation = this.destination;
                   this.destination = null;
+                  this.waitTick = 0;
               }
           }
       }
