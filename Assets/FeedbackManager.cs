@@ -18,6 +18,9 @@ public class FeedbackManager : MonoBehaviour {
     public GameObject current;
     public Transform canvas;
 
+    public string[] HappyText;
+    public string[] SadText;
+
     public bool moving;
     public float tics = 0;
 
@@ -26,6 +29,7 @@ public class FeedbackManager : MonoBehaviour {
         current = (GameObject) Instantiate(HappyImage, spawnloc.position, Quaternion.identity);
         current.transform.SetParent(canvas, false);
         current.transform.position = spawnloc.position;
+        current.GetComponentInChildren<UnityEngine.UI.Text>().text = HappyText[Random.Range(0, HappyText.Length - 1)];
     }
 
     public void ShowFeedbackSad()
@@ -33,6 +37,7 @@ public class FeedbackManager : MonoBehaviour {
         current = (GameObject)Instantiate(SadImage, spawnloc.position, Quaternion.identity);
         current.transform.SetParent(canvas, false);
         current.transform.position = spawnloc.position;
+        current.GetComponentInChildren<UnityEngine.UI.Text>().text = SadText[Random.Range(0, SadText.Length - 1)];
     }
 
     public void Start()

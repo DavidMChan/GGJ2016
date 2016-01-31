@@ -8,6 +8,7 @@ public class SacrificeManager : MonoBehaviour {
   public class Kill {
     public string[] Items;
     public string ReturnItem;
+    public bool canContinue;
   }
 
   [System.Serializable]
@@ -69,7 +70,7 @@ public class SacrificeManager : MonoBehaviour {
       Sacrifice currentSacrifice = sacrifices [sacrificeNumber];
 
       bool itemDrop = false;
-      bool cleanKill = true;
+      bool cleanKill = false;
       bool failed = false;
 
       List<Kill> matchedKills = new List<Kill>();
@@ -91,8 +92,8 @@ public class SacrificeManager : MonoBehaviour {
       }
 
       foreach (Kill k in matchedKills) {
-        if (k.Items.Length < usedItems.Count)
-          cleanKill = false;
+        if (k.Items.Length == usedItems.Count && k.canContinue)
+          cleanKill = true;
       }
 
       if (matchedKills.Count == 0)
@@ -114,7 +115,7 @@ public class SacrificeManager : MonoBehaviour {
 
             if (k.ReturnItem != "" && k.ReturnItem == "PandaPelt")
                 PandaPelt.SetActive(true);
-            //FeedbackManager.GetInstance().ShowFeedbackHappy();
+            FeedbackManager.GetInstance().ShowFeedbackHappy();
         }
         // LOGIC FOR ITEM-DROP PERFECT KILL
       } else if (failed) {
@@ -123,7 +124,7 @@ public class SacrificeManager : MonoBehaviour {
         GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.LOSE);
         return;
       } else if (cleanKill) {
-          //FeedbackManager.GetInstance().ShowFeedbackHappy();
+          FeedbackManager.GetInstance().ShowFeedbackHappy();
         Debug.Log("Clean kill!");
         // LOGIC FOR CLEAN KILL
 
@@ -131,7 +132,7 @@ public class SacrificeManager : MonoBehaviour {
 
         Debug.Log("Imperfect kill!");
         // LOGIC FOR IMPERFECT KILL
-        //FeedbackManager.GetInstance().ShowFeedbackSad();
+        FeedbackManager.GetInstance().ShowFeedbackSad();
       }
 
       //GameObject.FindGameObjectWithTag("Animal").GetComponent<AnimalMovementController>().Kill();

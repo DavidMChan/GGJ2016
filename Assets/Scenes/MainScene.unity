@@ -367,87 +367,106 @@ MonoBehaviour:
     - Items:
       - Dagger
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Vial
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Rope
       - Axe
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Rope
       - Candles
       - Statue
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Dagger
       - VodooDoll
       ReturnItem: RabbitFoot
+      canContinue: 1
   - Animal: Chick
     Kills:
     - Items:
       - Dagger
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Candles
       - Statue
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Toothbrush
       ReturnItem: 
+      canContinue: 1
   - Animal: Deer
     Kills:
     - Items:
       - Axe
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Candles
       - Statue
       - Dagger
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Rope
       - Bowl
       - Candles
       ReturnItem: DeerAshes
+      canContinue: 1
     - Items:
       - Relic
       - Rope
       ReturnItem: 
+      canContinue: 0
   - Animal: Panda
     Kills:
     - Items:
       - Vial
       - Statue
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Vile
       - Relic
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Axe
       - Candles
       - Relic
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Dagger
       - Relic
       - Rope
       - DeerAshes
       ReturnItem: 
+      canContinue: 0
     - Items:
       - RabbitFoot
       - DeerAshes
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Axe
       - RabbitFoot
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Vial
       - Relic
       - Axe
       ReturnItem: PandaPelt
+      canContinue: 1
   - Animal: Orangutang
     Kills:
     - Items:
@@ -455,20 +474,24 @@ MonoBehaviour:
       - Toothbrush
       - RabbitFoot
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Axe
       - DeerAshes
       - Statue
       ReturnItem: 
+      canContinue: 0
     - Items:
       - RabbitFoot
       - PandaPelt
       - DeerAshes
       ReturnItem: 
+      canContinue: 0
     - Items:
       - Statue
       - DeerAshes
       ReturnItem: 
+      canContinue: 1
   - Animal: Demon
     Kills:
     - Items:
@@ -476,6 +499,7 @@ MonoBehaviour:
       - RabbitFoot
       - Mirror
       ReturnItem: 
+      canContinue: 1
   RabitFoot: {fileID: 2016840010}
   PandaPelt: {fileID: 1274535172}
   DeerAshes: {fileID: 1838629245}
@@ -3812,11 +3836,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HappyImage: {fileID: 158684, guid: df73ada1d7c8c854c92a3d04bdd162d5, type: 2}
-  SadImage: {fileID: 118558, guid: 99baf7f4cdb2edc4187d69cff3f700b5, type: 2}
+  SadImage: {fileID: 158684, guid: 18402ce375da4f247b313befc3290962, type: 2}
   spawnloc: {fileID: 1021826108}
   target: {fileID: 1542389315}
   current: {fileID: 0}
   canvas: {fileID: 1048256531}
+  HappyText:
+  - You're Killing It!
+  - Well Slaughtered!
+  - Masterful!
+  - That'll Do Pig...
+  - Wicked Sick!
+  - RAMPAGE!!!!!!
+  - ULTRA KILLL!!!!!!
+  - That looks like it hurt!
+  SadText:
+  - Meh.
+  - Lame.
+  - Awful.
+  - Terrible.
+  - Jeez Jeff.
+  - Ah Well.
+  - Amature.
+  - Well Bugger.
+  - Oh No!
+  - Eh.....
   moving: 0
   tics: 0
 --- !u!1 &1484066688
