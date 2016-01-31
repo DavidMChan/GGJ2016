@@ -15,7 +15,9 @@ public class AudioManager : MonoBehaviour {
         AudioManager.instance = this;
     }
 
-    public AudioSource source;
+    public AudioSource[] sources;
+    public int currentSource = 0;
+
     public AudioClip[] clips;
 
     public void PlaySound(string name)
@@ -28,14 +30,17 @@ public class AudioManager : MonoBehaviour {
 
     public void PlaySound(int i)
     {
-        source.clip = clips[i];
-        source.Play();
+        sources[currentSource].clip = clips[i];
+        sources[currentSource].Play();
+        currentSource = (currentSource + 1) % sources.Length;
     }
 
     public void PlaySound(AudioClip a)
     {
-        source.clip = a;
-        source.Play();
+        sources[currentSource].clip = a;
+        sources[currentSource].Play();
+
+        currentSource = (currentSource + 1) % sources.Length;
     }
 	
 }

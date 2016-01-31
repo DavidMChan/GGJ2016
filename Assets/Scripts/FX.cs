@@ -60,6 +60,7 @@ public class FX : MonoBehaviour {
         currentFX = fxQueue[0].Key;
         currentFX.gameObject.SetActive(true);
         currentFX.Play();
+        AudioManager.GetInstance().PlaySound(fxQueue[0].Value);
         fxQueue.RemoveAt(0);
       }
     }
