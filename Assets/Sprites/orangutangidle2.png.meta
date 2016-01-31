@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 8da3bd9b8c8ba49b7beb73cbc9bdc8e6
+timeCreated: 1454281062
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: orangutangidle2_0
+    21300002: orangutangidle2_1
+    21300004: orangutangidle2_2
+    21300006: orangutangidle2_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: orangutangidle2_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 38
+        width: 449
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 179.5, y: -91}
+        - {x: 204.5, y: -90}
+        - {x: 224.5, y: -75}
+        - {x: 224.5, y: -6}
+        - {x: 188.5, y: 25}
+        - {x: 174.5, y: 33}
+        - {x: 154.5, y: 40}
+        - {x: 77.5, y: 52}
+        - {x: 48.5, y: 68}
+        - {x: 73.5, y: 85}
+        - {x: 67.5, y: 113}
+        - {x: 60.5, y: 148}
+        - {x: 68.5, y: 169}
+        - {x: 66.5, y: 179}
+        - {x: 18.5, y: 195}
+        - {x: 4.5, y: 219}
+        - {x: -5.5, y: 219}
+        - {x: -29.5, y: 212}
+        - {x: -43.5, y: 219}
+        - {x: -91.5, y: 219}
+        - {x: -103.5, y: 209}
+        - {x: -113.5, y: 219}
+        - {x: -137.5, y: 219}
+        - {x: -186.5, y: 190}
+        - {x: -195.5, y: 171}
+        - {x: -197.5, y: 166}
+        - {x: -207.5, y: 134}
+        - {x: -196.5, y: 96}
+        - {x: -160.5, y: 80}
+        - {x: -163.5, y: 62}
+        - {x: -130.5, y: 49}
+        - {x: -189.5, y: -19}
+        - {x: -194.5, y: -43}
+        - {x: -215.5, y: -66}
+        - {x: -222.5, y: -101}
+        - {x: -224.5, y: -112}
+        - {x: -224.5, y: -162}
+        - {x: -197.5, y: -207}
+        - {x: -178.5, y: -205}
+        - {x: -131.5, y: -218}
+        - {x: -77.5, y: -208}
+        - {x: -23.5, y: -158}
+        - {x: -30.5, y: -141}
+        - {x: -20.5, y: -108}
+        - {x: 6.5, y: -114}
+        - {x: 20.5, y: -155}
+        - {x: -4.5, y: -152}
+        - {x: -25.5, y: -167}
+        - {x: -19.5, y: -191}
+        - {x: 47.5, y: -219}
+        - {x: 177.5, y: -219}
+        - {x: 206.5, y: -209}
+        - {x: 224.5, y: -176}
+        - {x: 224.5, y: -158}
+    - name: orangutangidle2_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 31
+        width: 449
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 178.5, y: -85}
+        - {x: 201.5, y: -91}
+        - {x: 206.5, y: -89}
+        - {x: 224.5, y: -73}
+        - {x: 224.5, y: -11}
+        - {x: 187.5, y: 28}
+        - {x: 147.5, y: 42}
+        - {x: 25.5, y: 58}
+        - {x: 48.5, y: 68}
+        - {x: 68.5, y: 81}
+        - {x: 64.5, y: 92}
+        - {x: 68.5, y: 122}
+        - {x: 65.5, y: 195}
+        - {x: -12.5, y: 220}
+        - {x: -124.5, y: 220}
+        - {x: -166.5, y: 202}
+        - {x: -210.5, y: 153}
+        - {x: -206.5, y: 110}
+        - {x: -200.5, y: 81}
+        - {x: -171.5, y: 4}
+        - {x: -163.5, y: 2}
+        - {x: -155.5, y: 2}
+        - {x: -154.5, y: 3}
+        - {x: -152.5, y: 3}
+        - {x: -156.5, y: 2}
+        - {x: -165.5, y: -4}
+        - {x: -173.5, y: -9}
+        - {x: -182.5, y: -13}
+        - {x: -224.5, y: -69}
+        - {x: -224.5, y: -79}
+        - {x: -223.5, y: -99}
+        - {x: -224.5, y: -102}
+        - {x: -224.5, y: -169}
+        - {x: -217.5, y: -188}
+        - {x: -193.5, y: -213}
+        - {x: -85.5, y: -214}
+        - {x: -22.5, y: -169}
+        - {x: -27.5, y: -139}
+        - {x: -24.5, y: -107}
+        - {x: 2.5, y: -113}
+        - {x: -9.5, y: -155}
+        - {x: -22.5, y: -170}
+        - {x: -21.5, y: -182}
+        - {x: 12.5, y: -205}
+        - {x: 56.5, y: -220}
+        - {x: 178.5, y: -220}
+        - {x: 202.5, y: -205}
+        - {x: 224.5, y: -175}
+        - {x: 224.5, y: -167}
+    - name: orangutangidle2_2
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 29
+        width: 449
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 203.5, y: -103}
+        - {x: 224.5, y: -85}
+        - {x: 224.5, y: -4}
+        - {x: 179.5, y: 33}
+        - {x: 72.5, y: 53}
+        - {x: 51.5, y: 96}
+        - {x: 63.5, y: 132}
+        - {x: 55.5, y: 164}
+        - {x: 42.5, y: 198}
+        - {x: 12.5, y: 221}
+        - {x: -83.5, y: 221}
+        - {x: -103.5, y: 220}
+        - {x: -152.5, y: 202}
+        - {x: -153.5, y: 199}
+        - {x: -170.5, y: 164}
+        - {x: -206.5, y: 152}
+        - {x: -207.5, y: 149}
+        - {x: -206.5, y: 145}
+        - {x: -218.5, y: 116}
+        - {x: -202.5, y: 80}
+        - {x: -195.5, y: 77}
+        - {x: -170.5, y: 53}
+        - {x: -141.5, y: 30}
+        - {x: -164.5, y: 4}
+        - {x: -163.5, y: 1}
+        - {x: -155.5, y: 1}
+        - {x: -167.5, y: -6}
+        - {x: -181.5, y: -15}
+        - {x: -200.5, y: -39}
+        - {x: -218.5, y: -79}
+        - {x: -213.5, y: -127}
+        - {x: -224.5, y: -133}
+        - {x: -224.5, y: -181}
+        - {x: -215.5, y: -208}
+        - {x: -147.5, y: -204}
+        - {x: -128.5, y: -215}
+        - {x: -83.5, y: -212}
+        - {x: -26.5, y: -165}
+        - {x: -23.5, y: -150}
+        - {x: -23.5, y: -106}
+        - {x: 2.5, y: -115}
+        - {x: 13.5, y: -152}
+        - {x: -25.5, y: -161}
+        - {x: -23.5, y: -180}
+        - {x: 11.5, y: -207}
+        - {x: 56.5, y: -221}
+        - {x: 175.5, y: -221}
+        - {x: 205.5, y: -209}
+        - {x: 224.5, y: -182}
+        - {x: 224.5, y: -158}
+    - name: orangutangidle2_3
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 29
+        width: 449
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 180.5, y: -87}
+        - {x: 207.5, y: -97}
+        - {x: 224.5, y: -81}
+        - {x: 224.5, y: -9}
+        - {x: 189.5, y: 32}
+        - {x: 95.5, y: 53}
+        - {x: 35.5, y: 55}
+        - {x: 82.5, y: 75}
+        - {x: 65.5, y: 155}
+        - {x: 67.5, y: 195}
+        - {x: 11.5, y: 182}
+        - {x: 14.5, y: 197}
+        - {x: 13.5, y: 200}
+        - {x: -9.5, y: 220}
+        - {x: -78.5, y: 220}
+        - {x: -128.5, y: 214}
+        - {x: -162.5, y: 200}
+        - {x: -165.5, y: 175}
+        - {x: -206.5, y: 171}
+        - {x: -202.5, y: 158}
+        - {x: -215.5, y: 121}
+        - {x: -194.5, y: 86}
+        - {x: -159.5, y: 61}
+        - {x: -136.5, y: 32}
+        - {x: -166.5, y: 5}
+        - {x: -163.5, y: 2}
+        - {x: -155.5, y: 2}
+        - {x: -167.5, y: -4}
+        - {x: -186.5, y: -19}
+        - {x: -203.5, y: -40}
+        - {x: -223.5, y: -84}
+        - {x: -224.5, y: -115}
+        - {x: -224.5, y: -169}
+        - {x: -204.5, y: -217}
+        - {x: -128.5, y: -213}
+        - {x: -89.5, y: -215}
+        - {x: -26.5, y: -167}
+        - {x: -23.5, y: -149}
+        - {x: -26.5, y: -114}
+        - {x: 9.5, y: -116}
+        - {x: -1.5, y: -150}
+        - {x: -26.5, y: -169}
+        - {x: -20.5, y: -182}
+        - {x: 11.5, y: -207}
+        - {x: 65.5, y: -220}
+        - {x: 174.5, y: -220}
+        - {x: 203.5, y: -206}
+        - {x: 224.5, y: -170}
+        - {x: 224.5, y: -160}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
