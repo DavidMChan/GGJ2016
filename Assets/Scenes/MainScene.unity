@@ -5296,7 +5296,7 @@ MonoBehaviour:
   SpawnLocation: {fileID: 1499923523}
   WalkLoction: {fileID: 1842168926}
   sacman: {fileID: 300871876}
-  rabbit: {fileID: 137358, guid: 8416ccb5024d4c045a06c82655511136, type: 2}
+  rabbit: {fileID: 118086, guid: 096d3b6a8bf7e40dd969b1c132c216c0, type: 2}
   chick: {fileID: 186430, guid: 42d891679130801459280706ad2a77c8, type: 2}
   deer: {fileID: 126890, guid: 3fbbb92c1d3217a4fa3c5606d1d47edd, type: 2}
   panda: {fileID: 106376, guid: fc336546f8f2799419df0412d8d7c85e, type: 2}

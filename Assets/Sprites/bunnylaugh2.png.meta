@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 6f56cfda651b74032895eae142cf78dd
+timeCreated: 1454267550
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunnylaugh2_0
+    21300002: bunnylaugh2_1
+    21300004: bunnylaugh2_2
+    21300006: bunnylaugh2_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunnylaugh2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 467
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 202.5, y: -83}
+        - {x: 175.5, y: -69}
+        - {x: 123.5, y: -5}
+        - {x: 56.5, y: 44}
+        - {x: 131.5, y: 129}
+        - {x: 135.5, y: 138}
+        - {x: 138.5, y: 144}
+        - {x: 145.5, y: 176}
+        - {x: 110.5, y: 192}
+        - {x: 70.5, y: 192}
+        - {x: 53.5, y: 178}
+        - {x: 10.5, y: 69}
+        - {x: -117.5, y: 156}
+        - {x: -192.5, y: 189}
+        - {x: -203.5, y: 190}
+        - {x: -203.5, y: 153}
+        - {x: -200.5, y: 140}
+        - {x: -88.5, y: 36}
+        - {x: -119.5, y: -10}
+        - {x: -116.5, y: -34}
+        - {x: -29.5, y: -145}
+        - {x: -38.5, y: -161}
+        - {x: -40.5, y: -177}
+        - {x: -5.5, y: -192}
+        - {x: 121.5, y: -192}
+        - {x: 203.5, y: -135}
+        - {x: 203.5, y: -87}
+    - name: bunnylaugh2_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 513
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 224.28174, y: -87}
+        - {x: 209.28174, y: -63}
+        - {x: 148.28174, y: -48}
+        - {x: 142.28174, y: -2}
+        - {x: 73.28174, y: 48}
+        - {x: 87.28174, y: 58}
+        - {x: 168.28174, y: 116}
+        - {x: 182.28174, y: 166}
+        - {x: 135.28174, y: 189}
+        - {x: 100.28174, y: 189}
+        - {x: 37.28174, y: 96}
+        - {x: -8.718262, y: 80}
+        - {x: -78.71826, y: 121}
+        - {x: -183.71826, y: 147}
+        - {x: -220.71826, y: 145}
+        - {x: -222.71826, y: 143}
+        - {x: -222.71826, y: 125}
+        - {x: -221.71826, y: 123}
+        - {x: -153.71826, y: 65}
+        - {x: -65.71826, y: 29}
+        - {x: -105.71826, y: -2}
+        - {x: -105.71826, y: -34}
+        - {x: -17.718262, y: -93}
+        - {x: -20.718262, y: -174}
+        - {x: 14.281738, y: -189}
+        - {x: 140.28174, y: -189}
+        - {x: 171.28174, y: -165}
+        - {x: 224.28174, y: -123}
+    - name: bunnylaugh2_2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 525
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 228.93481, y: -103}
+        - {x: 228.93481, y: -73}
+        - {x: 220.93481, y: -53}
+        - {x: 163.93481, y: -35}
+        - {x: 145.93481, y: 11}
+        - {x: 88.934814, y: 47}
+        - {x: 185.93481, y: 87}
+        - {x: 207.93481, y: 148}
+        - {x: 162.93481, y: 177}
+        - {x: 132.93481, y: 177}
+        - {x: 119.934814, y: 174}
+        - {x: 33.934814, y: 82}
+        - {x: -44.065186, y: 115}
+        - {x: -168.06519, y: 138}
+        - {x: -226.06519, y: 133}
+        - {x: -228.06519, y: 130}
+        - {x: -228.06519, y: 110}
+        - {x: -143.06519, y: 61}
+        - {x: -85.065186, y: 43}
+        - {x: -101.065186, y: 20}
+        - {x: -112.065186, y: -29}
+        - {x: -18.065186, y: -67}
+        - {x: -13.065186, y: -129}
+        - {x: -22.065186, y: -175}
+        - {x: -5.0651855, y: -177}
+        - {x: 70.934814, y: -177}
+        - {x: 75.934814, y: -169}
+        - {x: 104.934814, y: -177}
+        - {x: 146.93481, y: -177}
+    - name: bunnylaugh2_3
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 0
+        width: 511
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 223.11438, y: -125}
+        - {x: 223.11438, y: -83}
+        - {x: 218.11438, y: -65}
+        - {x: 125.11438, y: -40}
+        - {x: 143.11438, y: -21}
+        - {x: 134.11438, y: -3}
+        - {x: 130.11438, y: -4}
+        - {x: 83.11438, y: 39}
+        - {x: 168.11438, y: 118}
+        - {x: 177.11438, y: 165}
+        - {x: 133.11438, y: 189}
+        - {x: 106.11438, y: 189}
+        - {x: 102.11438, y: 188}
+        - {x: 79.11438, y: 159}
+        - {x: 28.11438, y: 69}
+        - {x: -81.88562, y: 121}
+        - {x: -183.88562, y: 148}
+        - {x: -221.88562, y: 144}
+        - {x: -221.88562, y: 122}
+        - {x: -132.88562, y: 53}
+        - {x: -64.88562, y: 24}
+        - {x: -106.88562, y: 0}
+        - {x: -110.88562, y: -37}
+        - {x: -40.88562, y: -69}
+        - {x: -16.88562, y: -144}
+        - {x: -29.88562, y: -187}
+        - {x: -5.88562, y: -189}
+        - {x: 67.11438, y: -189}
+        - {x: 72.11438, y: -180}
+        - {x: 101.11438, y: -189}
+        - {x: 145.11438, y: -189}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

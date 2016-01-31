@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: d36c4e338b16c4b2dba6fe7795588894
+timeCreated: 1454267605
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunnyhopping2_0
+    21300002: bunnyhopping2_1
+    21300004: bunnyhopping2_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunnyhopping2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 466
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 184, y: -181.5}
+        - {x: 225, y: -168.5}
+        - {x: 233, y: -152.5}
+        - {x: 233, y: -102.5}
+        - {x: 230, y: -96.5}
+        - {x: 207, y: -83.5}
+        - {x: 152, y: -59.5}
+        - {x: 148, y: -14.5}
+        - {x: 76, y: 37.5}
+        - {x: 116, y: 112.5}
+        - {x: 159, y: 154.5}
+        - {x: 166, y: 200.5}
+        - {x: 124, y: 220.5}
+        - {x: 79, y: 220.5}
+        - {x: 60, y: 198.5}
+        - {x: 13, y: 71.5}
+        - {x: -32, y: 98.5}
+        - {x: -95, y: 152.5}
+        - {x: -146, y: 181.5}
+        - {x: -215, y: 216.5}
+        - {x: -233, y: 213.5}
+        - {x: -233, y: 189.5}
+        - {x: -175, y: 112.5}
+        - {x: -114, y: 60.5}
+        - {x: -79, y: 39.5}
+        - {x: -136, y: -10.5}
+        - {x: -136, y: -38.5}
+        - {x: -108, y: -60.5}
+        - {x: -49, y: -92.5}
+        - {x: -43, y: -157.5}
+        - {x: -47, y: -215.5}
+        - {x: -16, y: -220.5}
+        - {x: 52, y: -220.5}
+        - {x: 54, y: -201.5}
+        - {x: 89, y: -220.5}
+        - {x: 140, y: -220.5}
+    - name: bunnyhopping2_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 407
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 153.5, y: -317}
+        - {x: 177.5, y: -315}
+        - {x: 186.5, y: -272}
+        - {x: 162.5, y: -237}
+        - {x: 171.5, y: -185}
+        - {x: 199.5, y: -146}
+        - {x: 199.5, y: -116}
+        - {x: 189.5, y: -81}
+        - {x: 98.5, y: -59}
+        - {x: 74.5, y: -3}
+        - {x: 24.5, y: 64}
+        - {x: 112.5, y: 86}
+        - {x: 171.5, y: 48}
+        - {x: 184.5, y: 69}
+        - {x: 175.5, y: 156}
+        - {x: 134.5, y: 185}
+        - {x: 103.5, y: 195}
+        - {x: 41.5, y: 157}
+        - {x: -46.5, y: 111}
+        - {x: -65.5, y: 179}
+        - {x: -103.5, y: 249}
+        - {x: -165.5, y: 327}
+        - {x: -186.5, y: 327}
+        - {x: -192.5, y: 320}
+        - {x: -178.5, y: 216}
+        - {x: -124.5, y: 97}
+        - {x: -186.5, y: 66}
+        - {x: -203.5, y: 35}
+        - {x: -203.5, y: 33}
+        - {x: -128.5, y: -38}
+        - {x: -159.5, y: -75}
+        - {x: -203.5, y: -97}
+        - {x: -203.5, y: -138}
+        - {x: -144.5, y: -154}
+        - {x: -72.5, y: -107}
+        - {x: -96.5, y: -160}
+        - {x: -136.5, y: -178}
+        - {x: -150.5, y: -209}
+        - {x: -106.5, y: -228}
+        - {x: -9.5, y: -187}
+        - {x: 15.5, y: -220}
+        - {x: 29.5, y: -304}
+        - {x: 44.5, y: -318}
+        - {x: 65.5, y: -318}
+        - {x: 95.5, y: -287}
+        - {x: 104.5, y: -266}
+        - {x: 132.5, y: -300}
+    - name: bunnyhopping2_2
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 612
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 294, y: -129}
+        - {x: 306, y: -118}
+        - {x: 306, y: -91}
+        - {x: 294, y: -75}
+        - {x: 251, y: -10}
+        - {x: 255, y: 60}
+        - {x: 219, y: 99}
+        - {x: 139, y: 79}
+        - {x: 89, y: 89}
+        - {x: 79, y: 112}
+        - {x: 35, y: 122}
+        - {x: 13, y: 166}
+        - {x: 67, y: 212}
+        - {x: 129, y: 200}
+        - {x: 139, y: 232}
+        - {x: 94, y: 296}
+        - {x: 75, y: 299}
+        - {x: 14, y: 299}
+        - {x: -2, y: 280}
+        - {x: -40, y: 208}
+        - {x: -63, y: 159}
+        - {x: -197, y: 248}
+        - {x: -274, y: 283}
+        - {x: -306, y: 289}
+        - {x: -306, y: 258}
+        - {x: -221, y: 158}
+        - {x: -171, y: 129}
+        - {x: -154, y: 76}
+        - {x: -184, y: 46}
+        - {x: -184, y: 10}
+        - {x: -101, y: -12}
+        - {x: -59, y: -15}
+        - {x: -127, y: -103}
+        - {x: -124, y: -125}
+        - {x: -77, y: -143}
+        - {x: 6, y: -61}
+        - {x: -33, y: -150}
+        - {x: -16, y: -178}
+        - {x: 1, y: -178}
+        - {x: 18, y: -174}
+        - {x: 123, y: -88}
+        - {x: 148, y: -140}
+        - {x: 190, y: -178}
+        - {x: 208, y: -178}
+        - {x: 222, y: -170}
+        - {x: 227, y: -128}
+        - {x: 224, y: -104}
+        - {x: 270, y: -123}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
