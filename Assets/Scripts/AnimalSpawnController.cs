@@ -67,6 +67,7 @@ public class AnimalSpawnController : MonoBehaviour {
         spawnedAnimal = SpawnAnimal(Animal.Demon);
 
       spawnedAnimal.GetComponent<AnimalMovementController>().sacrificeTargetLocation = WalkLoction;
+      AudioManager.GetInstance().PlaySound(spawnedAnimal.GetComponent<AnimalMovementController>().EnterSound);
       GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_ENTERING);
     }
 
@@ -95,6 +96,7 @@ public class AnimalSpawnController : MonoBehaviour {
         {
             Debug.Log("Playing Laugh Anim");
             currentAnimal.GetComponent<Animator>().SetBool("Laughing", true);
+            AudioManager.GetInstance().PlaySound(currentAnimal.GetComponent<AnimalMovementController>().LaughingSound);
             dying = true;
             tics = Time.frameCount + 120;
         }
