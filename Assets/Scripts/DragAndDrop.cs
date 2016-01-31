@@ -94,12 +94,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
 
   public void GiveElement()
   {
+      this.gameObject.SetActive(true);
       Debug.Log("Giving Element");
       this.transform.position = Spawn.position;
       this.destination = homeLocation;
       this.transform.localScale = new Vector2(5, 5);
       this.moving = true;
-      this.waitTick = Time.frameCount + 30;
+      this.waitTick = Time.frameCount + 60;
   }
 
   public void Update() {
@@ -118,6 +119,11 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
                   this.currentLocation = this.destination;
                   this.destination = null;
                   this.waitTick = 0;
+                  if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.GIVING_ITEMS)
+                  {
+                      SacrificeManager.GetInstance().toGive = null;
+                      GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SCORING_KILL);
+                  }
               }
           }
       }

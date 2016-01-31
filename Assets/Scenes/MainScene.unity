@@ -500,9 +500,11 @@ MonoBehaviour:
       - Mirror
       ReturnItem: 
       canContinue: 1
+  sacrificeNumber: 0
   RabitFoot: {fileID: 2016840010}
   PandaPelt: {fileID: 1274535172}
   DeerAshes: {fileID: 1838629245}
+  toGive: {fileID: 0}
 --- !u!1 &307386525
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,7 +5300,7 @@ MonoBehaviour:
   chick: {fileID: 186430, guid: 42d891679130801459280706ad2a77c8, type: 2}
   deer: {fileID: 126890, guid: 3fbbb92c1d3217a4fa3c5606d1d47edd, type: 2}
   panda: {fileID: 106376, guid: fc336546f8f2799419df0412d8d7c85e, type: 2}
-  orangutang: {fileID: 137870, guid: eafc2266dab594366a36b24f0180c52a, type: 2}
+  orangutang: {fileID: 102928, guid: afc7eeaf9e4b2df41956275a3d4e4d2c, type: 2}
   demon: {fileID: 137870, guid: b57c287f3cf3d428dbe3835257d472d7, type: 2}
 --- !u!1 &2039872635
 GameObject:

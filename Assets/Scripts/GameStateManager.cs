@@ -26,6 +26,8 @@ public class GameStateManager : MonoBehaviour {
     // The animal is playing a death animation (player wins)
     ANIMAL_PLAYING_KILL_ANIMATION,
     // The animal is playing a kill animation (player loss)
+    GIVING_ITEMS,
+    // The items are being dropped
     SCORING_KILL,
     // Scoring the kill (when the player wins)
     ADDING_ITEMS,

@@ -14,6 +14,9 @@ public class AnimalSpawnController : MonoBehaviour {
   public GameObject orangutang;
   public GameObject demon;
 
+  private bool dying = false;
+  private int tics;
+
   public enum Animal {
     Rabbit,
     Chick,
@@ -67,9 +70,47 @@ public class AnimalSpawnController : MonoBehaviour {
       GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_ENTERING);
     }
 
+    if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.ANIMAL_PLAYING_DEATH_ANIMATION)
+    {
+        if (!dying)
+        {
+            currentAnimal.GetComponent<Animator>().SetTrigger("Die");
+            dying = true;
+            tics = Time.frameCount + 60;
+        }
+        else
+        {
+            if (Time.frameCount > tics)
+            {
+                tics = 0;
+                dying = false;
+                GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.GIVING_ITEMS);
+            }
+        }
+    }
+
+    if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.ANIMAL_PLAYING_KILL_ANIMATION)
+    {
+        if (!dying)
+        {
+            currentAnimal.GetComponent<Animator>().SetBool("Laughing", true);
+            dying = true;
+            tics = Time.frameCount + 60;
+        }
+        else
+        {
+            if (Time.frameCount > tics)
+            {
+                tics = 0;
+                dying = false;
+                GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.LOSE);
+            }
+        }
+    }
+
     if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.CLEANING_UP) {
       DespawnCurrentAnimal();
-      GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SCORING_KILL);
+      GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_SPAWNING);
     }
   }
 }

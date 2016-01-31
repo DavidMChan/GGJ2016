@@ -4,6 +4,11 @@ using System.Collections.Generic;
 
 public class SacrificeManager : MonoBehaviour {
 
+    private static SacrificeManager instance;
+    public static SacrificeManager GetInstance() {
+        return instance;
+    }
+
   [System.Serializable]
   public class Kill {
     public string[] Items;
@@ -24,11 +29,16 @@ public class SacrificeManager : MonoBehaviour {
 
   public Sacrifice[] sacrifices;
 
-  private int sacrificeNumber;
+  public int sacrificeNumber;
 
   public GameObject RabitFoot;
   public GameObject PandaPelt;
   public GameObject DeerAshes;
+
+  public GameObject toGive = null;
+
+  private bool currentFeedback = false;
+  private bool first = true;
 
   //For the sacrifice button
   public void SacrificeAnAnimal() {
@@ -42,6 +52,7 @@ public class SacrificeManager : MonoBehaviour {
   }
 
   public void Start() {
+      SacrificeManager.instance = this;
     sacrificeNumber = 0;
     RabitFoot.SetActive(false);
     PandaPelt.SetActive(false);
@@ -105,23 +116,23 @@ public class SacrificeManager : MonoBehaviour {
         foreach (Kill k in matchedKills)
         {
             if (k.ReturnItem != "" && k.ReturnItem == "RabbitFoot")
-            {
-
-                RabitFoot.SetActive(true);
-                RabitFoot.GetComponent<DragAndDrop>().GiveElement();
+            {   toGive = RabitFoot;
             }
             if (k.ReturnItem != "" && k.ReturnItem == "DeerAshes")
-                DeerAshes.SetActive(true);
-
+            {
+                toGive = DeerAshes;
+            }
             if (k.ReturnItem != "" && k.ReturnItem == "PandaPelt")
-                PandaPelt.SetActive(true);
+            {
+                toGive = PandaPelt;
+            }
             FeedbackManager.GetInstance().ShowFeedbackHappy();
         }
         // LOGIC FOR ITEM-DROP PERFECT KILL
       } else if (failed) {
         Debug.Log("Failed kill!");
         // LOGIC FOR FAILED KILL
-        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.LOSE);
+        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_PLAYING_KILL_ANIMATION);
         return;
       } else if (cleanKill) {
           FeedbackManager.GetInstance().ShowFeedbackHappy();
@@ -145,12 +156,22 @@ public class SacrificeManager : MonoBehaviour {
 
       //Increment sacrifice number
       sacrificeNumber += 1;
+      first = true;
 
-      if (sacrificeNumber >= sacrifices.Length)
-//      if (sacrificeNumber >= 1)
-        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.WIN);
-      else
-        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.CLEANING_UP);
+        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_PLAYING_DEATH_ANIMATION);
+    }
+
+    if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.GIVING_ITEMS)
+    {
+        if (toGive != null && first == true)
+        {
+            toGive.GetComponent<DragAndDrop>().GiveElement();
+            first = false;
+        }
+        else if (toGive == null)
+        {
+            GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SCORING_KILL);
+        }
     }
   }
 }

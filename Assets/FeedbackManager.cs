@@ -50,7 +50,6 @@ public class FeedbackManager : MonoBehaviour {
     {
         if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.SCORING_KILL)
         {
-
             if (!moving)
             {
                 current.gameObject.transform.position = Vector2.MoveTowards(current.transform.position, target.position, 5.0f * Time.deltaTime);
@@ -59,8 +58,6 @@ public class FeedbackManager : MonoBehaviour {
             {
                 current.gameObject.transform.position = Vector2.MoveTowards(current.transform.position, spawnloc.position, 5.0f * Time.deltaTime);
             }
-
-
             if (Vector2.Distance(current.transform.position, target.position) < 0.5)
             {
                     if (tics > 3)
@@ -69,11 +66,16 @@ public class FeedbackManager : MonoBehaviour {
 
             if (tics > 5)
                 {
-                    GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_SPAWNING);
-                    Destroy(current);
-                    current = null;
-                    moving = false;
-                    tics = 0;
+                    if (SacrificeManager.GetInstance().sacrificeNumber >= SacrificeManager.GetInstance().sacrifices.Length)
+                        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.WIN);
+                    else
+                    {
+                        GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.CLEANING_UP);
+                        Destroy(current);
+                        current = null;
+                        moving = false;
+                        tics = 0;
+                    }
                 }
             tics += Time.deltaTime;
         }
