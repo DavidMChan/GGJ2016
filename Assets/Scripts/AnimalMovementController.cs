@@ -29,6 +29,6 @@ public class AnimalMovementController : MonoBehaviour {
                 GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SETTING_UP_SACRIFICE);
             }
         }
-        this.gameObject.GetComponent<Animator>().SetBool("Laughing", Laughing);
+        //this.gameObject.GetComponent<Animator>().SetBool("Laughing", Laughing);
 	}
 }

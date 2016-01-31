@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 0e2aeb4ced0f5b1428bed37d5f00e093
+timeCreated: 1454266508
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_demon_walking_0
+    21300002: spritesheet_demon_walking_1
+    21300004: spritesheet_demon_walking_2
+    21300006: spritesheet_demon_walking_3
+    21300008: spritesheet_demon_walking_4
+    21300010: spritesheet_demon_walking_5
+    21300012: spritesheet_demon_walking_6
+    21300014: spritesheet_demon_walking_7
+    21300016: spritesheet_demon_walking_8
+    21300018: spritesheet_demon_walking_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_demon_walking_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 46
+        width: 343
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.91926, y: 42.945923}
+        - {x: -42.91926, y: 45.945923}
+        - {x: -41.91926, y: 45.945923}
+        - {x: -42.91926, y: 45.945923}
+        - {x: -64.91926, y: 38.945923}
+        - {x: -64.91926, y: -69.05408}
+        - {x: -57.91926, y: -73.05408}
+        - {x: -47.91926, y: -68.05408}
+        - {x: -45.91926, y: -61.054077}
+        - {x: -45.91926, y: -55.054077}
+        - {x: -44.91926, y: -50.054077}
+        - {x: -46.91926, y: -78.05408}
+        - {x: -26.919258, y: -83.05408}
+        - {x: 17.080742, y: -83.05408}
+        - {x: 47.08074, y: -81.05408}
+        - {x: 48.08074, y: -78.05408}
+        - {x: 48.08074, y: -76.05408}
+        - {x: 47.08074, y: -71.05408}
+        - {x: 47.08074, y: -63.054077}
+        - {x: 47.08074, y: -69.05408}
+        - {x: 48.08074, y: -78.05408}
+        - {x: 51.08074, y: -83.05408}
+        - {x: 66.08074, y: -83.05408}
+        - {x: 66.08074, y: 20.945923}
+        - {x: 56.08074, y: 83.94592}
+        - {x: -24.919258, y: 83.94592}
+        - {x: -64.91926, y: 45.945923}
+    - name: spritesheet_demon_walking_1
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 62
+        width: 348
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.08519, y: 88.51408}
+        - {x: -66.08519, y: 32.514076}
+        - {x: -66.08519, y: -71.48592}
+        - {x: -60.08519, y: -87.48592}
+        - {x: 66.91481, y: -87.48592}
+        - {x: 66.91481, y: 48.514076}
+        - {x: 35.91481, y: 88.51408}
+    - name: spritesheet_demon_walking_2
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 59
+        width: 383
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.3526, y: -79.1237}
+        - {x: 73.3526, y: -78.1237}
+        - {x: 73.3526, y: 39.876297}
+        - {x: 48.3526, y: 91.8763}
+        - {x: 30.3526, y: 91.8763}
+        - {x: 27.3526, y: 90.8763}
+        - {x: 25.3526, y: 83.8763}
+        - {x: 26.3526, y: 71.8763}
+        - {x: 12.3526, y: 91.8763}
+        - {x: -39.6474, y: 91.8763}
+        - {x: -72.6474, y: 6.876297}
+        - {x: -72.6474, y: -78.1237}
+        - {x: -59.6474, y: -89.1237}
+        - {x: -47.6474, y: -91.1237}
+        - {x: 45.3526, y: -91.1237}
+        - {x: 52.3526, y: -75.1237}
+        - {x: 53.3526, y: -71.1237}
+        - {x: 54.3526, y: -75.1237}
+    - name: spritesheet_demon_walking_3
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 62
+        width: 351
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.496277, y: -10.485924}
+        - {x: 33.496277, y: -69.48592}
+        - {x: 58.496277, y: -83.48592}
+        - {x: 66.49628, y: -73.48592}
+        - {x: 67.49628, y: -67.48592}
+        - {x: 67.49628, y: -19.485924}
+        - {x: 64.49628, y: 12.514076}
+        - {x: 61.496277, y: 35.514076}
+        - {x: 56.496277, y: 40.514076}
+        - {x: 44.496277, y: 89.51408}
+        - {x: -38.503723, y: 89.51408}
+        - {x: -66.50372, y: 50.514076}
+        - {x: -66.50372, y: -81.48592}
+        - {x: -60.503723, y: -88.48592}
+        - {x: 22.496277, y: -88.48592}
+        - {x: 31.496277, y: -47.485924}
+        - {x: 30.496277, y: -43.485924}
+        - {x: 27.496277, y: -35.485924}
+    - name: spritesheet_demon_walking_4
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 59
+        width: 343
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.865906, y: -78.6237}
+        - {x: 48.865906, y: -75.6237}
+        - {x: 47.865906, y: -71.6237}
+        - {x: 49.865906, y: -75.6237}
+        - {x: 53.865906, y: -78.6237}
+        - {x: 60.865906, y: -79.6237}
+        - {x: 65.865906, y: -79.6237}
+        - {x: 65.865906, y: -18.623703}
+        - {x: 58.865906, y: 34.376297}
+        - {x: 29.865906, y: 87.3763}
+        - {x: -31.134094, y: 87.3763}
+        - {x: -65.134094, y: 49.376297}
+        - {x: -65.134094, y: -77.6237}
+        - {x: -58.134094, y: -86.6237}
+        - {x: 18.865906, y: -86.6237}
+        - {x: 21.865906, y: -85.6237}
+        - {x: 26.865906, y: -76.6237}
+        - {x: 25.865906, y: -73.6237}
+    - name: spritesheet_demon_walking_5
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 59
+        width: 345
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.351074, y: 84.8763}
+        - {x: -65.351074, y: 44.876297}
+        - {x: -65.351074, y: -84.1237}
+        - {x: 66.648926, y: -84.1237}
+        - {x: 66.648926, y: 5.876297}
+        - {x: 42.648926, y: 84.8763}
+    - name: spritesheet_demon_walking_6
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 62
+        width: 351
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.44739, y: 91.01408}
+        - {x: -66.44739, y: -89.98592}
+        - {x: 47.552612, y: -89.98592}
+        - {x: 67.55261, y: -62.985924}
+        - {x: 67.55261, y: 37.014076}
+        - {x: 23.552612, y: 91.01408}
+    - name: spritesheet_demon_walking_7
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 59
+        width: 372
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.49182, y: 44.876297}
+        - {x: 23.491821, y: 91.8763}
+        - {x: -47.50818, y: 91.8763}
+        - {x: -70.50818, y: 68.8763}
+        - {x: -70.50818, y: -57.123703}
+        - {x: -64.50818, y: -73.1237}
+        - {x: -52.50818, y: -91.1237}
+        - {x: -4.5081787, y: -91.1237}
+        - {x: 58.49182, y: -66.1237}
+        - {x: 71.49182, y: -48.123703}
+        - {x: 71.49182, y: -21.123703}
+    - name: spritesheet_demon_walking_8
+      rect:
+        serializedVersion: 2
+        x: 4423
+        y: 62
+        width: 364
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.963745, y: 62.514076}
+        - {x: 15.963745, y: 91.51408}
+        - {x: -0.036254883, y: 91.51408}
+        - {x: -6.036255, y: 86.51408}
+        - {x: -3.036255, y: 70.51408}
+        - {x: -20.036255, y: 67.51408}
+        - {x: -19.036255, y: 79.51408}
+        - {x: -24.036255, y: 87.51408}
+        - {x: -40.036255, y: 87.51408}
+        - {x: -69.036255, y: 40.514076}
+        - {x: -69.036255, y: -79.48592}
+        - {x: -49.036255, y: -90.48592}
+        - {x: 46.963745, y: -90.48592}
+        - {x: 69.963745, y: -73.48592}
+        - {x: 69.963745, y: -1.4859238}
+    - name: spritesheet_demon_walking_9
+      rect:
+        serializedVersion: 2
+        x: 4974
+        y: 59
+        width: 351
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.435547, y: -65.1237}
+        - {x: 54.435547, y: -75.1237}
+        - {x: 67.43555, y: -73.1237}
+        - {x: 67.43555, y: -24.123703}
+        - {x: 57.435547, y: 40.876297}
+        - {x: 33.435547, y: 89.8763}
+        - {x: -40.564453, y: 89.8763}
+        - {x: -66.56445, y: 56.876297}
+        - {x: -66.56445, y: -66.1237}
+        - {x: -59.564453, y: -89.1237}
+        - {x: 36.435547, y: -89.1237}
+        - {x: 53.435547, y: -80.1237}
+        - {x: 50.435547, y: -67.1237}
+        - {x: 48.435547, y: -63.123703}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

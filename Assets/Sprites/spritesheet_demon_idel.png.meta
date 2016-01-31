@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: b3715376d980c6242a65020b7e654c3d
+timeCreated: 1454266429
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_demon_idel_0
+    21300002: spritesheet_demon_idel_1
+    21300004: spritesheet_demon_idel_2
+    21300006: spritesheet_demon_idel_3
+    21300008: spritesheet_demon_idel_4
+    21300010: spritesheet_demon_idel_5
+    21300012: spritesheet_demon_idel_6
+    21300014: spritesheet_demon_idel_7
+    21300016: spritesheet_demon_idel_8
+    21300018: spritesheet_demon_idel_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_demon_idel_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 388
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.514076, y: 83.94592}
+        - {x: 14.514076, y: 75.94592}
+        - {x: 5.514076, y: 83.94592}
+        - {x: -13.485924, y: 83.94592}
+        - {x: -17.485924, y: 82.94592}
+        - {x: -39.485924, y: 47.945923}
+        - {x: -34.485924, y: 45.945923}
+        - {x: -33.485924, y: 45.945923}
+        - {x: -34.485924, y: 45.945923}
+        - {x: -39.485924, y: 43.945923}
+        - {x: -53.485924, y: 33.945923}
+        - {x: -73.48592, y: 12.945923}
+        - {x: -73.48592, y: -31.054077}
+        - {x: -42.485924, y: -83.05408}
+        - {x: 56.514076, y: -83.05408}
+        - {x: 56.514076, y: -76.05408}
+        - {x: 55.514076, y: -71.05408}
+        - {x: 55.514076, y: -63.054077}
+        - {x: 55.514076, y: -69.05408}
+        - {x: 56.514076, y: -78.05408}
+        - {x: 58.514076, y: -83.05408}
+        - {x: 74.51408, y: -83.05408}
+        - {x: 74.51408, y: 31.945923}
+        - {x: 42.514076, y: 83.94592}
+    - name: spritesheet_demon_idel_1
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 46
+        width: 388
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.685928, y: 83.94592}
+        - {x: -73.68593, y: 62.945923}
+        - {x: -73.68593, y: -83.05408}
+        - {x: 74.31407, y: -83.05408}
+        - {x: 74.31407, y: 21.945923}
+        - {x: 58.31407, y: 82.94592}
+        - {x: 50.31407, y: 83.94592}
+    - name: spritesheet_demon_idel_2
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 46
+        width: 391
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.14444, y: 83.94592}
+        - {x: -74.14444, y: 4.945923}
+        - {x: -74.14444, y: -28.054077}
+        - {x: -34.14444, y: -81.05408}
+        - {x: -12.14444, y: -80.05408}
+        - {x: 0.8555603, y: -63.054077}
+        - {x: -2.1444397, y: -54.054077}
+        - {x: 23.85556, y: -83.05408}
+        - {x: 74.85556, y: -83.05408}
+        - {x: 74.85556, y: 21.945923}
+        - {x: 59.85556, y: 83.94592}
+    - name: spritesheet_demon_idel_3
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 46
+        width: 390
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.96521, y: 83.94592}
+        - {x: -73.96521, y: 32.945923}
+        - {x: -73.96521, y: -26.054077}
+        - {x: -41.96521, y: -83.05408}
+        - {x: 75.03479, y: -83.05408}
+        - {x: 75.03479, y: 7.945923}
+        - {x: 55.03479, y: 83.94592}
+    - name: spritesheet_demon_idel_4
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 46
+        width: 391
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.16516, y: -77.05408}
+        - {x: -66.16516, y: -83.05408}
+        - {x: 74.83484, y: -83.05408}
+        - {x: 74.83484, y: 8.945923}
+        - {x: 58.83484, y: 83.94592}
+        - {x: -42.16516, y: 83.94592}
+        - {x: -74.16516, y: 33.945923}
+    - name: spritesheet_demon_idel_5
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 46
+        width: 388
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.514038, y: 83.94592}
+        - {x: 14.514038, y: 75.94592}
+        - {x: 5.514038, y: 83.94592}
+        - {x: -13.485962, y: 83.94592}
+        - {x: -17.485962, y: 82.94592}
+        - {x: -39.485962, y: 47.945923}
+        - {x: -34.485962, y: 45.945923}
+        - {x: -33.485962, y: 45.945923}
+        - {x: -34.485962, y: 45.945923}
+        - {x: -39.485962, y: 43.945923}
+        - {x: -52.485962, y: 32.945923}
+        - {x: -73.48596, y: 11.945923}
+        - {x: -73.48596, y: -32.054077}
+        - {x: -41.485962, y: -83.05408}
+        - {x: 56.514038, y: -83.05408}
+        - {x: 56.514038, y: -76.05408}
+        - {x: 55.514038, y: -71.05408}
+        - {x: 55.514038, y: -63.054077}
+        - {x: 55.514038, y: -69.05408}
+        - {x: 56.514038, y: -78.05408}
+        - {x: 58.514038, y: -83.05408}
+        - {x: 74.51404, y: -83.05408}
+        - {x: 74.51404, y: 31.945923}
+        - {x: 42.514038, y: 83.94592}
+    - name: spritesheet_demon_idel_6
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 46
+        width: 388
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.685913, y: 83.94592}
+        - {x: -30.685913, y: 70.94592}
+        - {x: -73.68591, y: 6.945923}
+        - {x: -73.68591, y: -47.054077}
+        - {x: -44.685913, y: -83.05408}
+        - {x: 74.31409, y: -83.05408}
+        - {x: 74.31409, y: 7.945923}
+        - {x: 72.31409, y: 21.945923}
+        - {x: 40.314087, y: 83.94592}
+    - name: spritesheet_demon_idel_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 46
+        width: 391
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.14441, y: 83.94592}
+        - {x: -74.14441, y: 15.945923}
+        - {x: -74.14441, y: -29.054077}
+        - {x: -44.14441, y: -83.05408}
+        - {x: 74.85559, y: -83.05408}
+        - {x: 74.85559, y: 49.945923}
+        - {x: 43.85559, y: 83.94592}
+    - name: spritesheet_demon_idel_8
+      rect:
+        serializedVersion: 2
+        x: 4381
+        y: 46
+        width: 390
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.03479, y: 83.94592}
+        - {x: -18.96521, y: 83.94592}
+        - {x: -31.96521, y: 78.94592}
+        - {x: -73.96521, y: 16.945923}
+        - {x: -73.96521, y: -11.054077}
+        - {x: -68.96521, y: -22.054077}
+        - {x: -56.96521, y: -33.054077}
+        - {x: -32.96521, y: -27.054077}
+        - {x: -35.96521, y: -31.054077}
+        - {x: -47.96521, y: -83.05408}
+        - {x: 75.03479, y: -83.05408}
+        - {x: 75.03479, y: 8.945923}
+        - {x: 74.03479, y: 13.945923}
+    - name: spritesheet_demon_idel_9
+      rect:
+        serializedVersion: 2
+        x: 4921
+        y: 46
+        width: 391
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.16516, y: -15.054077}
+        - {x: -68.16516, y: -21.054077}
+        - {x: -61.16516, y: -39.054077}
+        - {x: -36.16516, y: -83.05408}
+        - {x: 74.83484, y: -83.05408}
+        - {x: 74.83484, y: 8.945923}
+        - {x: 58.83484, y: 83.94592}
+        - {x: -22.165161, y: 83.94592}
+        - {x: -74.16516, y: 13.945923}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3441,7 +3441,7 @@ MonoBehaviour:
   snapRadius: 1
   snapSpeed: 20
   dragging: 0
-  Spawn: {fileID: 0}
+  Spawn: {fileID: 1842168926}
 --- !u!114 &1274535176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5301,7 +5301,7 @@ MonoBehaviour:
   deer: {fileID: 126890, guid: 3fbbb92c1d3217a4fa3c5606d1d47edd, type: 2}
   panda: {fileID: 106376, guid: fc336546f8f2799419df0412d8d7c85e, type: 2}
   orangutang: {fileID: 102928, guid: afc7eeaf9e4b2df41956275a3d4e4d2c, type: 2}
-  demon: {fileID: 137870, guid: b57c287f3cf3d428dbe3835257d472d7, type: 2}
+  demon: {fileID: 179894, guid: ec5efa5fa3db56b479fdbb302bfe8f8a, type: 2}
 --- !u!1 &2039872635
 GameObject:
   m_ObjectHideFlags: 0

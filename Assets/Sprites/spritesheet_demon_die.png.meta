@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 944be11a04562b644977f0e191555df9
+timeCreated: 1454266601
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_demon_die_0
+    21300002: spritesheet_demon_die_1
+    21300004: spritesheet_demon_die_2
+    21300006: spritesheet_demon_die_3
+    21300008: spritesheet_demon_die_4
+    21300010: spritesheet_demon_die_5
+    21300012: spritesheet_demon_die_6
+    21300014: spritesheet_demon_die_7
+    21300016: spritesheet_demon_die_8
+    21300018: spritesheet_demon_die_9
+    21300020: spritesheet_demon_die_10
+    21300022: spritesheet_demon_die_11
+    21300024: spritesheet_demon_die_12
+    21300026: spritesheet_demon_die_13
+    21300028: spritesheet_demon_die_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_demon_die_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 45
+        width: 348
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.95185, y: -54.622223}
+        - {x: -39.95185, y: -55.622223}
+        - {x: 45.04815, y: -55.622223}
+        - {x: 45.04815, y: 56.377777}
+        - {x: -33.95185, y: 56.377777}
+        - {x: -43.95185, y: 9.377777}
+    - name: spritesheet_demon_die_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 45
+        width: 344
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.587158, y: 56.377777}
+        - {x: 7.587158, y: 51.377777}
+        - {x: 7.587158, y: 44.377777}
+        - {x: 0.5871582, y: 42.377777}
+        - {x: -3.4128418, y: 41.377777}
+        - {x: -8.412842, y: 39.377777}
+        - {x: -9.412842, y: 38.377777}
+        - {x: -6.412842, y: 39.377777}
+        - {x: -3.4128418, y: 42.377777}
+        - {x: 0.5871582, y: 44.377777}
+        - {x: -3.4128418, y: 56.377777}
+        - {x: -21.412842, y: 56.377777}
+        - {x: -43.41284, y: 34.377777}
+        - {x: -43.41284, y: -55.622223}
+        - {x: 44.58716, y: -55.622223}
+        - {x: 44.58716, y: 12.377777}
+        - {x: 31.587158, y: 56.377777}
+    - name: spritesheet_demon_die_2
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.896545, y: 54.91185}
+        - {x: -44.896545, y: 20.91185}
+        - {x: -44.896545, y: -33.08815}
+        - {x: -30.896545, y: -54.08815}
+        - {x: 32.103455, y: -54.08815}
+        - {x: 46.103455, y: -46.08815}
+        - {x: 46.103455, y: 28.91185}
+        - {x: 44.103455, y: 54.91185}
+    - name: spritesheet_demon_die_3
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.889618, y: 54.91185}
+        - {x: 4.889618, y: 50.91185}
+        - {x: -4.110382, y: 39.91185}
+        - {x: -9.110382, y: 37.91185}
+        - {x: -10.110382, y: 36.91185}
+        - {x: -7.110382, y: 37.91185}
+        - {x: -4.110382, y: 40.91185}
+        - {x: -0.11038208, y: 52.91185}
+        - {x: -6.110382, y: 54.91185}
+        - {x: -19.110382, y: 54.91185}
+        - {x: -45.110382, y: 21.91185}
+        - {x: -45.110382, y: -41.08815}
+        - {x: -38.110382, y: -50.08815}
+        - {x: -34.110382, y: -54.08815}
+        - {x: 29.889618, y: -54.08815}
+        - {x: 45.889618, y: -47.08815}
+        - {x: 45.889618, y: 23.91185}
+        - {x: 21.889618, y: 54.91185}
+    - name: spritesheet_demon_die_4
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.917297, y: 54.91185}
+        - {x: 9.917297, y: 54.91185}
+        - {x: 2.9172974, y: 45.91185}
+        - {x: -1.0827026, y: 42.91185}
+        - {x: -4.0827026, y: 39.91185}
+        - {x: -7.0827026, y: 37.91185}
+        - {x: 0.91729736, y: 44.91185}
+        - {x: -3.0827026, y: 54.91185}
+        - {x: -20.082703, y: 54.91185}
+        - {x: -45.082703, y: 15.91185}
+        - {x: -45.082703, y: -47.08815}
+        - {x: -42.082703, y: -54.08815}
+        - {x: 45.917297, y: -54.08815}
+        - {x: 45.917297, y: 0.91185}
+        - {x: 43.917297, y: 12.91185}
+    - name: spritesheet_demon_die_5
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.956299, y: 54.91185}
+        - {x: 4.956299, y: 50.91185}
+        - {x: -4.043701, y: 39.91185}
+        - {x: -9.043701, y: 37.91185}
+        - {x: -10.043701, y: 36.91185}
+        - {x: -7.043701, y: 37.91185}
+        - {x: -4.043701, y: 41.91185}
+        - {x: -2.0437012, y: 46.91185}
+        - {x: -2.0437012, y: 49.91185}
+        - {x: -5.043701, y: 54.91185}
+        - {x: -19.043701, y: 54.91185}
+        - {x: -44.0437, y: 20.91185}
+        - {x: -45.0437, y: 15.91185}
+        - {x: -45.0437, y: -45.08815}
+        - {x: -40.0437, y: -54.08815}
+        - {x: 45.9563, y: -54.08815}
+        - {x: 45.9563, y: 15.91185}
+        - {x: 33.9563, y: 54.91185}
+    - name: spritesheet_demon_die_6
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.983948, y: 54.91185}
+        - {x: -39.016052, y: 54.91185}
+        - {x: -45.016052, y: 30.91185}
+        - {x: -45.016052, y: -48.08815}
+        - {x: -35.016052, y: -54.08815}
+        - {x: 43.983948, y: -54.08815}
+        - {x: 45.983948, y: -50.08815}
+        - {x: 45.983948, y: 18.91185}
+        - {x: 37.983948, y: 51.91185}
+    - name: spritesheet_demon_die_7
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.022949, y: 54.91185}
+        - {x: -3.9770508, y: 39.91185}
+        - {x: -8.977051, y: 37.91185}
+        - {x: -9.977051, y: 36.91185}
+        - {x: -6.977051, y: 37.91185}
+        - {x: -3.9770508, y: 41.91185}
+        - {x: -1.9770508, y: 46.91185}
+        - {x: -1.9770508, y: 49.91185}
+        - {x: -4.977051, y: 54.91185}
+        - {x: -18.97705, y: 54.91185}
+        - {x: -44.97705, y: 40.91185}
+        - {x: -44.97705, y: -51.08815}
+        - {x: -43.97705, y: -54.08815}
+        - {x: 25.02295, y: -54.08815}
+        - {x: 46.02295, y: -47.08815}
+        - {x: 46.02295, y: 22.91185}
+        - {x: 25.02295, y: 54.91185}
+    - name: spritesheet_demon_die_8
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 57
+        width: 356
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.050659, y: 54.91185}
+        - {x: 7.050659, y: 49.91185}
+        - {x: -2.9493408, y: 54.91185}
+        - {x: -16.94934, y: 54.91185}
+        - {x: -42.94934, y: 21.91185}
+        - {x: -44.94934, y: 8.91185}
+        - {x: -44.94934, y: -42.08815}
+        - {x: -34.94934, y: -54.08815}
+        - {x: 45.05066, y: -54.08815}
+        - {x: 46.05066, y: -52.08815}
+        - {x: 46.05066, y: 21.91185}
+        - {x: 37.05066, y: 54.91185}
+    - name: spritesheet_demon_die_9
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 45
+        width: 344
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.600952, y: 56.377777}
+        - {x: 5.600952, y: 55.377777}
+        - {x: -3.3990479, y: 41.377777}
+        - {x: -8.399048, y: 39.377777}
+        - {x: -9.399048, y: 38.377777}
+        - {x: -6.399048, y: 39.377777}
+        - {x: -3.3990479, y: 43.377777}
+        - {x: 0.60095215, y: 47.377777}
+        - {x: -1.3990479, y: 56.377777}
+        - {x: -15.399048, y: 56.377777}
+        - {x: -25.399048, y: 52.377777}
+        - {x: -41.399048, y: 22.377777}
+        - {x: -42.399048, y: 9.377777}
+        - {x: -43.399048, y: -2.622223}
+        - {x: -43.399048, y: -39.622223}
+        - {x: -42.399048, y: -44.622223}
+        - {x: -38.399048, y: -48.622223}
+        - {x: -36.399048, y: -48.622223}
+        - {x: -27.399048, y: -53.622223}
+        - {x: -17.399048, y: -55.622223}
+        - {x: -5.399048, y: -55.622223}
+        - {x: 15.600952, y: -52.622223}
+        - {x: 23.600952, y: -50.622223}
+        - {x: 22.600952, y: -50.622223}
+        - {x: 28.600952, y: -55.622223}
+        - {x: 44.600952, y: -55.622223}
+        - {x: 44.600952, y: 23.377777}
+        - {x: 23.600952, y: 56.377777}
+    - name: spritesheet_demon_die_10
+      rect:
+        serializedVersion: 2
+        x: 5507
+        y: 45
+        width: 345
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.612793, y: -55.622223}
+        - {x: 44.387207, y: -55.622223}
+        - {x: 44.387207, y: 26.377777}
+        - {x: 41.387207, y: 56.377777}
+        - {x: -28.612793, y: 56.377777}
+        - {x: -43.612793, y: 30.377777}
+    - name: spritesheet_demon_die_11
+      rect:
+        serializedVersion: 2
+        x: 6049
+        y: 49
+        width: 340
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.926147, y: 56.889137}
+        - {x: 9.926147, y: 51.889137}
+        - {x: 10.926147, y: 43.889137}
+        - {x: -1.0738525, y: 42.889137}
+        - {x: 0.92614746, y: 44.889137}
+        - {x: 1.9261475, y: 54.889137}
+        - {x: 0.92614746, y: 56.889137}
+        - {x: -34.073853, y: 56.889137}
+        - {x: -43.073853, y: 19.889137}
+        - {x: -43.073853, y: -54.110863}
+        - {x: -26.073853, y: -56.110863}
+        - {x: 43.926147, y: -56.110863}
+        - {x: 43.926147, y: 11.889137}
+        - {x: 42.926147, y: 18.889137}
+        - {x: 28.926147, y: 50.889137}
+        - {x: 23.926147, y: 56.889137}
+    - name: spritesheet_demon_die_12
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 57
+        width: 364
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.012085, y: 58.91185}
+        - {x: -46.012085, y: 13.91185}
+        - {x: -46.012085, y: -42.08815}
+        - {x: -36.012085, y: -51.08815}
+        - {x: -11.012085, y: -58.08815}
+        - {x: 35.987915, y: -58.08815}
+        - {x: 46.987915, y: -53.08815}
+        - {x: 46.987915, y: 32.91185}
+        - {x: 33.987915, y: 58.91185}
+    - name: spritesheet_demon_die_13
+      rect:
+        serializedVersion: 2
+        x: 7180
+        y: 104
+        width: 293
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.112305, y: 51.29531}
+        - {x: -37.112305, y: 19.295311}
+        - {x: -37.112305, y: -13.704689}
+        - {x: -36.112305, y: -14.704689}
+        - {x: -28.112305, y: -15.704689}
+        - {x: -24.112305, y: -14.704689}
+        - {x: -23.112305, y: -13.704689}
+        - {x: -21.112305, y: -13.704689}
+        - {x: -24.112305, y: -15.704689}
+        - {x: -28.112305, y: -15.704689}
+        - {x: -34.112305, y: -17.704689}
+        - {x: -36.112305, y: -50.70469}
+        - {x: 37.887695, y: -50.70469}
+        - {x: 37.887695, y: 46.29531}
+        - {x: 33.887695, y: 51.29531}
+    - name: spritesheet_demon_die_14
+      rect:
+        serializedVersion: 2
+        x: 7706
+        y: 136
+        width: 293
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.881226, y: 24.386173}
+        - {x: 30.881226, y: 26.386173}
+        - {x: -1.1187744, y: 26.386173}
+        - {x: -33.118774, y: 8.386173}
+        - {x: -37.118774, y: 4.3861732}
+        - {x: -37.118774, y: -25.613827}
+        - {x: 30.881226, y: -25.613827}
+        - {x: 33.881226, y: -23.613827}
+        - {x: 37.881226, y: -17.613827}
+        - {x: 37.881226, y: 5.3861732}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
