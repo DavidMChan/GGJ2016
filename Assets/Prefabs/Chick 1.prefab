@@ -60,6 +60,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sacrificeTargetLocation: {fileID: 0}
   walkSpeed: 2
+  EnterSound: 19
+  DeathSound: 21
+  LaughingSound: 20
   Laughing: 0
 --- !u!212 &21266100
 SpriteRenderer:
@@ -113,6 +116,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Animal
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: EnterSound
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DeathSound
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: LaughingSound
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Laughing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

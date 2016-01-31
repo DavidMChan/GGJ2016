@@ -60,6 +60,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sacrificeTargetLocation: {fileID: 0}
   walkSpeed: 2
+  EnterSound: 18
+  DeathSound: 16
+  LaughingSound: 17
   Laughing: 0
 --- !u!212 &21201256
 SpriteRenderer:
@@ -97,7 +100,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: EnterSound
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DeathSound
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: LaughingSound
+      value: 17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 118086}
