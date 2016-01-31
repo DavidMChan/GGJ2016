@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 84d755f91e5380042a673bd9d7c96b58
+timeCreated: 1454207571
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_chick_dead_0
+    21300002: spritesheet_chick_dead_1
+    21300004: spritesheet_chick_dead_2
+    21300006: spritesheet_chick_dead_3
+    21300008: spritesheet_chick_dead_4
+    21300010: spritesheet_chick_dead_5
+    21300012: spritesheet_chick_dead_6
+    21300014: spritesheet_chick_dead_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_chick_dead_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8
+        width: 316
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.033333, y: 120.792595}
+        - {x: -60.966667, y: 120.792595}
+        - {x: -74.96667, y: 73.792595}
+        - {x: -74.96667, y: 31.792595}
+        - {x: -61.966667, y: -32.207405}
+        - {x: -38.966667, y: -51.207405}
+        - {x: -50.966667, y: -82.207405}
+        - {x: -55.966667, y: -97.207405}
+        - {x: -43.966667, y: -112.207405}
+        - {x: -22.966667, y: -106.207405}
+        - {x: 1.0333328, y: -94.207405}
+        - {x: 2.0333328, y: -91.207405}
+        - {x: 2.0333328, y: -85.207405}
+        - {x: -0.9666672, y: -82.207405}
+        - {x: 9.033333, y: -89.207405}
+        - {x: -4.966667, y: -98.207405}
+        - {x: -6.966667, y: -106.207405}
+        - {x: -6.966667, y: -115.207405}
+        - {x: 2.0333328, y: -119.207405}
+        - {x: 25.033333, y: -119.207405}
+        - {x: 46.033333, y: -90.207405}
+        - {x: 76.03333, y: -27.207405}
+        - {x: 76.03333, y: 26.792595}
+    - name: spritesheet_chick_dead_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 8
+        width: 369
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.45926, y: 85.292595}
+        - {x: 66.45926, y: 79.292595}
+        - {x: 62.45926, y: 73.292595}
+        - {x: 14.459259, y: 125.292595}
+        - {x: -9.540741, y: 125.292595}
+        - {x: -59.54074, y: 97.292595}
+        - {x: -86.54074, y: 60.292595}
+        - {x: -87.54074, y: 58.292595}
+        - {x: -87.54074, y: -96.707405}
+        - {x: -77.54074, y: -123.707405}
+        - {x: -23.540741, y: -118.707405}
+        - {x: 10.459259, y: -100.707405}
+        - {x: 14.459259, y: -98.707405}
+        - {x: 15.459259, y: -95.707405}
+        - {x: 15.459259, y: -89.707405}
+        - {x: 12.459259, y: -86.707405}
+        - {x: 22.459259, y: -93.707405}
+        - {x: 8.459259, y: -102.707405}
+        - {x: 6.459259, y: -110.707405}
+        - {x: 6.459259, y: -119.707405}
+        - {x: 15.459259, y: -123.707405}
+        - {x: 39.45926, y: -123.707405}
+        - {x: 61.45926, y: -95.707405}
+        - {x: 88.45926, y: -52.707405}
+        - {x: 88.45926, y: 65.292595}
+    - name: spritesheet_chick_dead_2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 8
+        width: 369
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.45923, y: 85.792595}
+        - {x: 66.45923, y: 79.792595}
+        - {x: 62.45923, y: 73.792595}
+        - {x: 37.45923, y: 124.792595}
+        - {x: -26.540771, y: 124.792595}
+        - {x: -52.54077, y: 121.792595}
+        - {x: -87.54077, y: 68.792595}
+        - {x: -87.54077, y: -92.207405}
+        - {x: -72.54077, y: -123.207405}
+        - {x: -58.54077, y: -123.207405}
+        - {x: -23.540771, y: -118.207405}
+        - {x: 10.4592285, y: -100.207405}
+        - {x: 14.4592285, y: -98.207405}
+        - {x: 15.4592285, y: -95.207405}
+        - {x: 15.4592285, y: -89.207405}
+        - {x: 12.4592285, y: -86.207405}
+        - {x: 22.459229, y: -93.207405}
+        - {x: 8.4592285, y: -102.207405}
+        - {x: 6.4592285, y: -110.207405}
+        - {x: 6.4592285, y: -119.207405}
+        - {x: 15.4592285, y: -123.207405}
+        - {x: 39.45923, y: -123.207405}
+        - {x: 61.45923, y: -95.207405}
+        - {x: 88.45923, y: -52.207405}
+        - {x: 88.45923, y: 65.792595}
+    - name: spritesheet_chick_dead_3
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 8
+        width: 369
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.54077, y: 123.792595}
+        - {x: -73.54077, y: 118.792595}
+        - {x: -87.54077, y: 67.792595}
+        - {x: -87.54077, y: -70.207405}
+        - {x: -60.54077, y: -113.207405}
+        - {x: -23.540771, y: -119.207405}
+        - {x: 10.4592285, y: -101.207405}
+        - {x: 14.4592285, y: -99.207405}
+        - {x: 15.4592285, y: -96.207405}
+        - {x: 15.4592285, y: -90.207405}
+        - {x: 12.4592285, y: -87.207405}
+        - {x: 22.459229, y: -94.207405}
+        - {x: 8.4592285, y: -103.207405}
+        - {x: 6.4592285, y: -111.207405}
+        - {x: 6.4592285, y: -120.207405}
+        - {x: 15.4592285, y: -124.207405}
+        - {x: 41.45923, y: -124.207405}
+        - {x: 88.45923, y: -83.207405}
+        - {x: 88.45923, y: 78.792595}
+        - {x: 59.45923, y: 123.792595}
+    - name: spritesheet_chick_dead_4
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 35
+        width: 443
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90.87781, y: -44.40741}
+        - {x: 93.87781, y: -35.40741}
+        - {x: 105.87781, y: 15.59259}
+        - {x: 105.87781, y: 48.59259}
+        - {x: 71.87781, y: 54.59259}
+        - {x: 29.877808, y: 101.59259}
+        - {x: -69.12219, y: 101.59259}
+        - {x: -105.12219, y: 15.59259}
+        - {x: -105.12219, y: -15.40741}
+        - {x: -38.122192, y: -60.40741}
+        - {x: 26.877808, y: -92.40741}
+        - {x: 45.877808, y: -95.40741}
+        - {x: 74.87781, y: -100.40741}
+        - {x: 102.87781, y: -100.40741}
+        - {x: 105.87781, y: -97.40741}
+        - {x: 105.87781, y: -79.40741}
+        - {x: 101.87781, y: -49.40741}
+    - name: spritesheet_chick_dead_5
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1
+        width: 489
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.203735, y: 48.974075}
+        - {x: 77.203735, y: 73.974075}
+        - {x: 70.203735, y: 83.974075}
+        - {x: 33.203735, y: 83.974075}
+        - {x: -37.796265, y: 70.974075}
+        - {x: -114.796265, y: 11.974075}
+        - {x: -114.796265, y: -83.025925}
+        - {x: 42.203735, y: -83.025925}
+        - {x: 117.203735, y: -65.025925}
+        - {x: 117.203735, y: 36.974075}
+        - {x: 93.203735, y: 63.974075}
+    - name: spritesheet_chick_dead_6
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 0
+        width: 489
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.203735, y: 48.5}
+        - {x: 77.203735, y: 73.5}
+        - {x: 70.203735, y: 83.5}
+        - {x: 56.203735, y: 83.5}
+        - {x: 15.203735, y: 58.5}
+        - {x: 20.203735, y: 50.5}
+        - {x: -78.796265, y: 20.5}
+        - {x: -114.796265, y: -7.5}
+        - {x: -114.796265, y: -59.5}
+        - {x: -97.796265, y: -83.5}
+        - {x: 91.203735, y: -83.5}
+        - {x: 117.203735, y: -49.5}
+        - {x: 117.203735, y: 56.5}
+        - {x: 93.203735, y: 63.5}
+    - name: spritesheet_chick_dead_7
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 0
+        width: 489
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.20361, y: 48.5}
+        - {x: 77.20361, y: 73.5}
+        - {x: 70.20361, y: 83.5}
+        - {x: 56.203613, y: 83.5}
+        - {x: 15.203613, y: 58.5}
+        - {x: 20.203613, y: 50.5}
+        - {x: -78.79639, y: 20.5}
+        - {x: -114.79639, y: -7.5}
+        - {x: -114.79639, y: -59.5}
+        - {x: -97.79639, y: -83.5}
+        - {x: 91.20361, y: -83.5}
+        - {x: 117.20361, y: -49.5}
+        - {x: 117.20361, y: 56.5}
+        - {x: 93.20361, y: 63.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
