@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: idel7
+  m_Name: spell
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: CastSpell
@@ -133,7 +133,7 @@ AnimatorStateMachine:
     m_Position: {x: 288, y: 108, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110222816}
-    m_Position: {x: 288, y: 180, z: 0}
+    m_Position: {x: 323, y: 173, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
