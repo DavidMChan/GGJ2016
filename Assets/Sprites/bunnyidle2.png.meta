@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: d678e044bb2af4ef2adc55e890183c29
+timeCreated: 1454279982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunnyidle2_0
+    21300002: bunnyidle2_1
+    21300004: bunnyidle2_2
+    21300006: bunnyidle2_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunnyidle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 466
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 203.5, y: -143}
+        - {x: 207.5, y: -131}
+        - {x: 207.5, y: -85}
+        - {x: 203.5, y: -76}
+        - {x: 127.5, y: -18}
+        - {x: 90.5, y: 3}
+        - {x: 79.5, y: 68}
+        - {x: 136.5, y: 122}
+        - {x: 152.5, y: 181}
+        - {x: 113.5, y: 197}
+        - {x: 67.5, y: 197}
+        - {x: 35.5, y: 138}
+        - {x: 11.5, y: 63}
+        - {x: -95.5, y: 145}
+        - {x: -193.5, y: 195}
+        - {x: -207.5, y: 193}
+        - {x: -207.5, y: 165}
+        - {x: -187.5, y: 135}
+        - {x: -113.5, y: 58}
+        - {x: -73.5, y: 31}
+        - {x: -130.5, y: -10}
+        - {x: -119.5, y: -40}
+        - {x: -83.5, y: -62}
+        - {x: -69.5, y: -70}
+        - {x: -40.5, y: -91}
+        - {x: -54.5, y: -191}
+        - {x: -25.5, y: -197}
+        - {x: 121.5, y: -197}
+    - name: bunnyidle2_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 0
+        width: 487
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 216.61115, y: -97.5}
+        - {x: 205.61115, y: -75.5}
+        - {x: 138.61115, y: -13.5}
+        - {x: 58.611145, y: 45.5}
+        - {x: 75.611145, y: 65.5}
+        - {x: 143.61115, y: 147.5}
+        - {x: 135.61115, y: 199.5}
+        - {x: 56.611145, y: 199.5}
+        - {x: 28.611145, y: 129.5}
+        - {x: -11.388855, y: 59.5}
+        - {x: -39.388855, y: 95.5}
+        - {x: -143.38885, y: 162.5}
+        - {x: -215.38885, y: 179.5}
+        - {x: -216.38885, y: 176.5}
+        - {x: -216.38885, y: 155.5}
+        - {x: -210.38885, y: 147.5}
+        - {x: -198.38885, y: 133.5}
+        - {x: -184.38885, y: 117.5}
+        - {x: -154.38885, y: 88.5}
+        - {x: -82.388855, y: 10.5}
+        - {x: -112.388855, y: -19.5}
+        - {x: -114.388855, y: -26.5}
+        - {x: -117.388855, y: -46.5}
+        - {x: -35.388855, y: -94.5}
+        - {x: -42.388855, y: -179.5}
+        - {x: -6.388855, y: -199.5}
+        - {x: 133.61115, y: -199.5}
+        - {x: 216.61115, y: -133.5}
+    - name: bunnyidle2_2
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 509
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 226.72229, y: -90}
+        - {x: 208.72229, y: -68}
+        - {x: 112.72229, y: -49}
+        - {x: 136.72229, y: -25}
+        - {x: 136.72229, y: 2}
+        - {x: 58.72229, y: 47}
+        - {x: 121.72229, y: 140}
+        - {x: 129.72229, y: 177}
+        - {x: 117.72229, y: 199}
+        - {x: 92.72229, y: 201}
+        - {x: 49.72229, y: 201}
+        - {x: 30.72229, y: 179}
+        - {x: 8.72229, y: 62}
+        - {x: -78.27771, y: 111}
+        - {x: -201.27771, y: 159}
+        - {x: -225.27771, y: 157}
+        - {x: -226.27771, y: 155}
+        - {x: -226.27771, y: 133}
+        - {x: -169.27771, y: 75}
+        - {x: -135.27771, y: 54}
+        - {x: -93.27771, y: 29}
+        - {x: -102.27771, y: -21}
+        - {x: -128.27771, y: -35}
+        - {x: -108.27771, y: -57}
+        - {x: -20.27771, y: -115}
+        - {x: -27.27771, y: -183}
+        - {x: -0.27770996, y: -201}
+        - {x: 58.72229, y: -201}
+        - {x: 67.72229, y: -199}
+        - {x: 75.72229, y: -201}
+        - {x: 147.72229, y: -201}
+        - {x: 206.72229, y: -149}
+        - {x: 226.72229, y: -127}
+    - name: bunnyidle2_3
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 0
+        width: 485
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.88892, y: -45.5}
+        - {x: 133.88892, y: -0.5}
+        - {x: 68.888916, y: 35.5}
+        - {x: 135.88892, y: 137.5}
+        - {x: 149.88892, y: 179.5}
+        - {x: 115.888916, y: 199.5}
+        - {x: 65.888916, y: 199.5}
+        - {x: 51.888916, y: 189.5}
+        - {x: 11.888916, y: 62.5}
+        - {x: -36.111084, y: 96.5}
+        - {x: -142.11108, y: 157.5}
+        - {x: -199.11108, y: 178.5}
+        - {x: -215.11108, y: 173.5}
+        - {x: -215.11108, y: 156.5}
+        - {x: -210.11108, y: 146.5}
+        - {x: -155.11108, y: 87.5}
+        - {x: -126.111084, y: 64.5}
+        - {x: -71.111084, y: 24.5}
+        - {x: -118.111084, y: -20.5}
+        - {x: -112.111084, y: -44.5}
+        - {x: -95.111084, y: -57.5}
+        - {x: -68.111084, y: -73.5}
+        - {x: -30.111084, y: -181.5}
+        - {x: -23.111084, y: -185.5}
+        - {x: -18.111084, y: -186.5}
+        - {x: -0.111083984, y: -199.5}
+        - {x: 160.88892, y: -199.5}
+        - {x: 216.88892, y: -145.5}
+        - {x: 216.88892, y: -89.5}
+        - {x: 214.88892, y: -83.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
