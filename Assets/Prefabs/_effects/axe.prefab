@@ -67,7 +67,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,7 +3085,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   serializedVersion: 2
-  lengthInSec: 2
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -4484,7 +4484,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   serializedVersion: 2
-  lengthInSec: 2
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -7419,7 +7419,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1999606763
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 1
   m_SortMode: 0
@@ -7460,7 +7460,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1999606763
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 1
   m_SortMode: 0
@@ -7501,7 +7501,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1999606763
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 2
@@ -7583,7 +7583,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1999606763
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 1
@@ -7608,8 +7608,8 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: looping
@@ -7618,6 +7618,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: 1999606763
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: lengthInSec
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
