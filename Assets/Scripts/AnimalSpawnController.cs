@@ -69,7 +69,7 @@ public class AnimalSpawnController : MonoBehaviour {
 
     if (GameStateManager.GetInstance().GetCurrentState() == GameStateManager.GameState.CLEANING_UP) {
       DespawnCurrentAnimal();
-      GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.SCORING_KILL);
+      GameStateManager.GetInstance().RequestGameStateChange(GameStateManager.GameState.ANIMAL_SPAWNING);
     }
   }
 }
