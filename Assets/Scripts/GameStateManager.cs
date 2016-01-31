@@ -19,6 +19,7 @@ public class GameStateManager : MonoBehaviour {
     // The sacrifical animal is playing some kind of "entry animation"
     SETTING_UP_SACRIFICE,
     // The player is setting up the sacrifice
+    PRE_SACRIFICING_FX, //  use for showing FX
     SACRIFICING,
     // The game is sacrificing the animal (determining the results)
     ANIMAL_PLAYING_DEATH_ANIMATION,
