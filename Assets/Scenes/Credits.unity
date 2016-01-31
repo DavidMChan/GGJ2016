@@ -817,9 +817,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "* David Chan                        *Elizaveta Organissian\n*Stephanie
-    Murphy               *Damon Nagy\n*Brian Bauer\t                       *Kendall
-    Weistroffer\n* Jeff Schomay                   *Arman Darini\n* Darby Vernon\n\n"
+  m_Text: "* David Chan                        *Elizaveta Organissian\n* Stephanie
+    Murphy              *Damon Nagy\n* Brian Bauer                       *Kendall
+    Weistroffer\t             \n* Jeff Schomay                   *Arman Darini                             \n*
+    Darby Vernon\n"
 --- !u!222 &1988508201
 CanvasRenderer:
   m_ObjectHideFlags: 0
