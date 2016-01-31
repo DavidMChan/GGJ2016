@@ -5,6 +5,12 @@ public class AnimalMovementController : MonoBehaviour {
 
     public Transform sacrificeTargetLocation;
     public float walkSpeed = 5;
+    
+    
+    public int EnterSound = 0;
+    public int DeathSound = 0;
+    public int LaughingSound = 0;
+
 
     public bool Laughing;
 
@@ -15,6 +21,7 @@ public class AnimalMovementController : MonoBehaviour {
     public void Kill()
     {
         this.gameObject.GetComponent<Animator>().SetTrigger("Die");
+        AudioManager.GetInstance().PlaySound(DeathSound);
     }
 	
 	// Update is called once per frame
