@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Rope
-  fx: {fileID: 0}
+  fx: {fileID: 100000, guid: fe75fcaa3f0a84541a884a46d0e51c0c, type: 2}
   sound: 11
 --- !u!114 &374870896
 MonoBehaviour:
@@ -1519,7 +1519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Relic
-  fx: {fileID: 0}
+  fx: {fileID: 157114, guid: a0105c7d61fee1046a7f038a620db4ae, type: 2}
   sound: 3
 --- !u!114 &561773886
 MonoBehaviour:
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: VodooDoll
-  fx: {fileID: 0}
+  fx: {fileID: 129204, guid: d3c530dd3305fe94b8b8dfd8f8fe36f8, type: 2}
   sound: 12
 --- !u!114 &883788870
 MonoBehaviour:
@@ -2244,7 +2244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Candles
-  fx: {fileID: 100002, guid: 27a53a04ff38bfc4b8dd0a089e3b6142, type: 2}
+  fx: {fileID: 100002, guid: 44b642b2024095a4fa62a988db859443, type: 2}
   sound: 7
 --- !u!114 &931818222
 MonoBehaviour:
@@ -2343,7 +2343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Bowl
-  fx: {fileID: 0}
+  fx: {fileID: 148348, guid: 900266ec815240246a3c986c30631816, type: 2}
   sound: 6
 --- !u!114 &954834237
 MonoBehaviour:
@@ -2865,7 +2865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Axe
-  fx: {fileID: 0}
+  fx: {fileID: 100006, guid: b11f2a610bd9e6f48bfdd43607c9a849, type: 2}
   sound: 5
 --- !u!114 &1127272886
 MonoBehaviour:
@@ -3085,7 +3085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Vial
-  fx: {fileID: 0}
+  fx: {fileID: 100000, guid: fefd76a972a8c2341abe9546e496b22b, type: 2}
   sound: 9
 --- !u!114 &1175691977
 MonoBehaviour:
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: PandaPelt
-  fx: {fileID: 0}
+  fx: {fileID: 180916, guid: 010d3651efaa586478a97c4e83fd9085, type: 2}
   sound: 0
 --- !u!114 &1274535175
 MonoBehaviour:
@@ -4844,7 +4844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: DeerAshes
-  fx: {fileID: 0}
+  fx: {fileID: 157654, guid: 2bb23b7462301744a80ad630e1b72a55, type: 2}
   sound: 4
 --- !u!114 &1838629248
 MonoBehaviour:
@@ -5203,7 +5203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: RabbitFoot
-  fx: {fileID: 0}
+  fx: {fileID: 151862, guid: 2eedc486c4bd95e48a20af85455016ac, type: 2}
   sound: 15
 --- !u!114 &2016840013
 MonoBehaviour:
@@ -5559,7 +5559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: Dagger
-  fx: {fileID: 0}
+  fx: {fileID: 100006, guid: fee18403e9ce65042bfea1a686837806, type: 2}
   sound: 8
 --- !u!1 &2119674859
 GameObject:
