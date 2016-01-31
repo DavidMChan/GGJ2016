@@ -5298,7 +5298,7 @@ MonoBehaviour:
   sacman: {fileID: 300871876}
   rabbit: {fileID: 118086, guid: 096d3b6a8bf7e40dd969b1c132c216c0, type: 2}
   chick: {fileID: 186430, guid: 42d891679130801459280706ad2a77c8, type: 2}
-  deer: {fileID: 126890, guid: 3fbbb92c1d3217a4fa3c5606d1d47edd, type: 2}
+  deer: {fileID: 161782, guid: d6f7f2bd65b0943e09e245b76700ebf2, type: 2}
   panda: {fileID: 106376, guid: fc336546f8f2799419df0412d8d7c85e, type: 2}
   orangutang: {fileID: 102928, guid: afc7eeaf9e4b2df41956275a3d4e4d2c, type: 2}
   demon: {fileID: 179894, guid: ec5efa5fa3db56b479fdbb302bfe8f8a, type: 2}
