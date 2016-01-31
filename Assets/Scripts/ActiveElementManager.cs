@@ -31,6 +31,7 @@ public class ActiveElementManager : MonoBehaviour {
 
     public void Reset()
     {
+        AudioManager.GetInstance().PlaySound(2);
         foreach (ActiveElementDetector aed in locations)
         {
             if (aed.current != null)
