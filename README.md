@@ -3,6 +3,10 @@ Animal Rites
 
 A top-down, 2D, adorable game about sacrificing as many cute animals as possible, by carefully choosing the right combination of ritual items for each animal.  If you use the right items every time you can beat the game, but if you choose the wrong items, you have to start all over again, using your previous experience to do better.  
 
+[More information on the official Global Game Jam 2016 game page](http://globalgamejam.org/2016/games/animal-rites)
+
+### [Play now! (online with the Unity plugin on Firefox)](http://ggj2016.s3-website-us-east-1.amazonaws.com/)
+
 Hints:
 - Each item can only be used once!
 - You can use up to 5 items each round, but you often won't need that many.
